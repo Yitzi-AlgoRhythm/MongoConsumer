@@ -1,0 +1,1360 @@
+[
+  {
+    "Name": "ABRK",
+    "Description": "AIRBRAKE POSITION",
+    "DataType": "float64",
+    "Offset": 0,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 50,
+      "Max": 130
+    }
+  },
+  {
+    "Name": "AIL_1",
+    "Description": "AILERON POSITION LH",
+    "DataType": "float64",
+    "Offset": 9,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 25,
+      "Max": 120
+    }
+  },
+  {
+    "Name": "AIL_2",
+    "Description": "AILERON POSITION RH",
+    "DataType": "float64",
+    "Offset": 17,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 25,
+      "Max": 120
+    }
+  },
+  {
+    "Name": "BPGR_1",
+    "Description": "BRAKE PRESSURE LH GREEN",
+    "DataType": "float64",
+    "Offset": 30,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "BPGR_2",
+    "Description": "BRAKE PRESSURE RH GREEN",
+    "DataType": "float64",
+    "Offset": 38,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "BPYR_1",
+    "Description": "BRAKE PRESSURE LH YELLOW",
+    "DataType": "float64",
+    "Offset": 46,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "BPYR_2",
+    "Description": "BRAKE PRESSURE RH YELLOW",
+    "DataType": "float64",
+    "Offset": 54,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "DWPT",
+    "Description": "DISTANCE TO WAYPOINT LSP",
+    "DataType": "int32",
+    "Offset": 78,
+    "Size": 5,
+    "Mask": "0x3FFFFFFFC0",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ELEV_1",
+    "Description": "ELEVATOR POSITION LEFT",
+    "DataType": "float64",
+    "Offset": 82,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "ELEV_2",
+    "Description": "ELEVATOR POSITION RIGHT",
+    "DataType": "float64",
+    "Offset": 90,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "FLAP",
+    "Description": "T.E. FLAP POSITION",
+    "DataType": "uint16",
+    "Offset": 102,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 1,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 4500
+    }
+  },
+  {
+    "Name": "FQTY_1",
+    "Description": "FUEL QUANTITY TANK 1 LSB",
+    "DataType": "uint16",
+    "Offset": 104,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 1,
+    "Units": "LBS",
+    "Range": {
+      "Min": 0,
+      "Max": 9000
+    }
+  },
+  {
+    "Name": "FQTY_2",
+    "Description": "FUEL QUANTITY TANK 2 LSB",
+    "DataType": "uint16",
+    "Offset": 106,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 1,
+    "Units": "LSB",
+    "Range": {
+      "Min": 0,
+      "Max": 9000
+    }
+  },
+  {
+    "Name": "FQTY_3",
+    "Description": "FUEL QUANTITY TANK 3 LSB",
+    "DataType": "uint16",
+    "Offset": 108,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 1,
+    "Units": "LSB",
+    "Range": {
+      "Min": 0,
+      "Max": 9000
+    }
+  },
+  {
+    "Name": "FQTY_4",
+    "Description": "FUEL QUANTITY TANK 4 LSB",
+    "DataType": "uint16",
+    "Offset": 110,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 1,
+    "Units": "LSB",
+    "Range": {
+      "Min": 0,
+      "Max": 9000
+    }
+  },
+  {
+    "Name": "GLS",
+    "Description": "GLIDESLOPE DEVIATION",
+    "DataType": "float64",
+    "Offset": 112,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 1,
+    "Units": "DDM",
+    "Range": {
+      "Min": -1,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "LATP",
+    "Description": "LATITUDE POSITION LSP",
+    "DataType": "float64",
+    "Offset": 133,
+    "Size": 9,
+    "Mask": "0x01FFFFFFFFFFFFFFFE",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "LOC",
+    "Description": "LOCALIZER DEVIATION",
+    "DataType": "float64",
+    "Offset": 142,
+    "Size": 9,
+    "Mask": "0x07FFFFFFFFFFFFFFF8",
+    "Correlator": 1,
+    "Units": "DDM",
+    "Range": {
+      "Min": -0.4,
+      "Max": 0.4
+    }
+  },
+  {
+    "Name": "LONP",
+    "Description": "LONGITUDE POSITION LSP",
+    "DataType": "float64",
+    "Offset": 150,
+    "Size": 9,
+    "Mask": "0x07FFFFFFFFFFFFFFF8",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "OIP_1",
+    "Description": "OIL PRESSURE 1",
+    "DataType": "float64",
+    "Offset": 161,
+    "Size": 9,
+    "Mask": "0x3FFFFFFFFFFFFFFFC0",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "OIP_2",
+    "Description": "OIL PRESSURE 2",
+    "DataType": "float64",
+    "Offset": 169,
+    "Size": 9,
+    "Mask": "0x3FFFFFFFFFFFFFFFC0",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "OIP_3",
+    "Description": "OIL PRESSURE 3",
+    "DataType": "float64",
+    "Offset": 177,
+    "Size": 9,
+    "Mask": "0x3FFFFFFFFFFFFFFFC0",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "OIP_4",
+    "Description": "OIL PRESSURE 4",
+    "DataType": "float64",
+    "Offset": 185,
+    "Size": 9,
+    "Mask": "0x3FFFFFFFFFFFFFFFC0",
+    "Correlator": 1,
+    "Units": "PSI",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "OIT_1",
+    "Description": "OIL TEMPERATURE 1",
+    "DataType": "float64",
+    "Offset": 193,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 175
+    }
+  },
+  {
+    "Name": "OIT_2",
+    "Description": "OIL TEMPERATURE 2",
+    "DataType": "float64",
+    "Offset": 201,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 175
+    }
+  },
+  {
+    "Name": "OIT_3",
+    "Description": "OIL TEMPERATURE 3",
+    "DataType": "float64",
+    "Offset": 209,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 175
+    }
+  },
+  {
+    "Name": "OIT_4",
+    "Description": "OIL TEMPERATURE 4",
+    "DataType": "float64",
+    "Offset": 217,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 175
+    }
+  },
+  {
+    "Name": "PTRM",
+    "Description": "PITCH TRIM POSITION",
+    "DataType": "float64",
+    "Offset": 226,
+    "Size": 9,
+    "Mask": "0x07FFFFFFFFFFFFFFF8",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -50,
+      "Max": 40
+    }
+  },
+  {
+    "Name": "SAT",
+    "Description": "STATIC AIR TEMPERATURE",
+    "DataType": "float64",
+    "Offset": 234,
+    "Size": 9,
+    "Mask": "0x03FFFFFFFFFFFFFFFC",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -75,
+      "Max": 80
+    }
+  },
+  {
+    "Name": "SPL_1",
+    "Description": "ROLL SPOILER LEFT",
+    "DataType": "float64",
+    "Offset": 243,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 25,
+      "Max": 85
+    }
+  },
+  {
+    "Name": "SPL_2",
+    "Description": "ROLL SPOILER RIGHT",
+    "DataType": "float64",
+    "Offset": 251,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": 25,
+      "Max": 85
+    }
+  },
+  {
+    "Name": "TAT",
+    "Description": "TOTAL AIR TEMPERATURE",
+    "DataType": "float64",
+    "Offset": 259,
+    "Size": 9,
+    "Mask": "0x0FFFFFFFFFFFFFFFF0",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -30,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "CCPC",
+    "Description": "CONTROL COLUMN POSITION CAPT",
+    "DataType": "uint16",
+    "Offset": 0,
+    "Size": 3,
+    "Mask": "0x7FFF80",
+    "Correlator": 2,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 4000
+    }
+  },
+  {
+    "Name": "CCPF",
+    "Description": "CONTROL COLUMN POSITION F/O",
+    "DataType": "uint16",
+    "Offset": 2,
+    "Size": 3,
+    "Mask": "0x7FFF80",
+    "Correlator": 2,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 4000
+    }
+  },
+  {
+    "Name": "CWPC",
+    "Description": "CONTROL WHEEL POSITION CAPT",
+    "DataType": "uint16",
+    "Offset": 4,
+    "Size": 3,
+    "Mask": "0x7FFF80",
+    "Correlator": 2,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "CWPF",
+    "Description": "CONTROL WHEEL POSITION F/O",
+    "DataType": "uint16",
+    "Offset": 6,
+    "Size": 3,
+    "Mask": "0x7FFF80",
+    "Correlator": 2,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 3500
+    }
+  },
+  {
+    "Name": "PI",
+    "Description": "IMPACT PRESSURE LSP",
+    "DataType": "float64",
+    "Offset": 8,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 2,
+    "Units": "MB",
+    "Range": {
+      "Min": 0,
+      "Max": 350
+    }
+  },
+  {
+    "Name": "PS",
+    "Description": "STATIC PRESSURE LSP",
+    "DataType": "float64",
+    "Offset": 16,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 2,
+    "Units": "IN",
+    "Range": {
+      "Min": 0,
+      "Max": 35
+    }
+  },
+  {
+    "Name": "PSA",
+    "Description": "AVARAGE STATIC PRESSURE LSP",
+    "DataType": "float64",
+    "Offset": 24,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 2,
+    "Units": "MB",
+    "Range": {
+      "Min": 0,
+      "Max": 1300
+    }
+  },
+  {
+    "Name": "PT",
+    "Description": "TOTAL PRESSURE LSP",
+    "DataType": "float64",
+    "Offset": 32,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 2,
+    "Units": "MB",
+    "Range": {
+      "Min": 0,
+      "Max": 1400
+    }
+  },
+  {
+    "Name": "RUDD",
+    "Description": "RUDDER POSITION",
+    "DataType": "float64",
+    "Offset": 40,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 2,
+    "Units": "DEG",
+    "Range": {
+      "Min": -25,
+      "Max": 25
+    }
+  },
+  {
+    "Name": "RUDP",
+    "Description": "RUDDER PEDAL POSITION",
+    "DataType": "uint16",
+    "Offset": 48,
+    "Size": 3,
+    "Mask": "0x1FFFE0",
+    "Correlator": 2,
+    "Units": "COUNTS",
+    "Range": {
+      "Min": 0,
+      "Max": 3700
+    }
+  },
+  {
+    "Name": "ALT",
+    "Description": "PRESSURE ALTITUDE LSP",
+    "DataType": "int32",
+    "Offset": 0,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 4,
+    "Units": "FEET",
+    "Range": {
+      "Min": -1000,
+      "Max": 50000
+    }
+  },
+  {
+    "Name": "ALTR",
+    "Description": "ALTITUDE RATE",
+    "DataType": "int16",
+    "Offset": 4,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 4,
+    "Units": "FT/MIN",
+    "Range": {
+      "Min": -8000,
+      "Max": 8000
+    }
+  },
+  {
+    "Name": "AOA1",
+    "Description": "ANGLE OF ATTACK 1",
+    "DataType": "float64",
+    "Offset": 6,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -25,
+      "Max": 50
+    }
+  },
+  {
+    "Name": "AOA2",
+    "Description": "ANGLE OF ATTACK 2",
+    "DataType": "float64",
+    "Offset": 14,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -25,
+      "Max": 50
+    }
+  },
+  {
+    "Name": "AOAC",
+    "Description": "CORRECTED ANGLE OF ATTACK",
+    "DataType": "float64",
+    "Offset": 22,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -25,
+      "Max": 50
+    }
+  },
+  {
+    "Name": "AOAI",
+    "Description": "INDICATED ANGLE OF ATTACK",
+    "DataType": "float64",
+    "Offset": 30,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -25,
+      "Max": 50
+    }
+  },
+  {
+    "Name": "BAL1",
+    "Description": "BARO CORRECT ALTITUDE LSP",
+    "DataType": "int32",
+    "Offset": 38,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 4,
+    "Units": "FEET",
+    "Range": {
+      "Min": -100,
+      "Max": 40000
+    }
+  },
+  {
+    "Name": "BAL2",
+    "Description": "BARO CORRECT ALTITUDE LSP",
+    "DataType": "int32",
+    "Offset": 42,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 4,
+    "Units": "FEET",
+    "Range": {
+      "Min": -100,
+      "Max": 40000
+    }
+  },
+  {
+    "Name": "CAS",
+    "Description": "COMPUTED AIRSPEED LSP",
+    "DataType": "float64",
+    "Offset": 46,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 450
+    }
+  },
+  {
+    "Name": "DA",
+    "Description": "DRIFT ANGLE",
+    "DataType": "float64",
+    "Offset": 62,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -90,
+      "Max": 90
+    }
+  },
+  {
+    "Name": "EGT_1",
+    "Description": "EXHAUST GAS TEMPERATURE 1",
+    "DataType": "float64",
+    "Offset": 70,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 800
+    }
+  },
+  {
+    "Name": "EGT_2",
+    "Description": "EXHAUST GAS TEMPERATURE 2",
+    "DataType": "float64",
+    "Offset": 78,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 800
+    }
+  },
+  {
+    "Name": "EGT_3",
+    "Description": "EXHAUST GAS TEMPERATURE 3",
+    "DataType": "float64",
+    "Offset": 86,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 800
+    }
+  },
+  {
+    "Name": "EGT_4",
+    "Description": "EXHAUST GAS TEMPERATURE 4",
+    "DataType": "float64",
+    "Offset": 94,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": 0,
+      "Max": 800
+    }
+  },
+  {
+    "Name": "FF_1",
+    "Description": "FUEL FLOW 1",
+    "DataType": "uint16",
+    "Offset": 102,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 4,
+    "Units": "LBS/HR",
+    "Range": {
+      "Min": 0,
+      "Max": 3800
+    }
+  },
+  {
+    "Name": "FF_2",
+    "Description": "FUEL FLOW 2",
+    "DataType": "uint16",
+    "Offset": 104,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 4,
+    "Units": "LBS/HR",
+    "Range": {
+      "Min": 0,
+      "Max": 3800
+    }
+  },
+  {
+    "Name": "FF_3",
+    "Description": "FUEL FLOW 3",
+    "DataType": "uint16",
+    "Offset": 106,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 4,
+    "Units": "LBS/HR",
+    "Range": {
+      "Min": 0,
+      "Max": 3800
+    }
+  },
+  {
+    "Name": "FF_4",
+    "Description": "FUEL FLOW 4",
+    "DataType": "uint16",
+    "Offset": 108,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 4,
+    "Units": "LBS/HR",
+    "Range": {
+      "Min": 0,
+      "Max": 3800
+    }
+  },
+  {
+    "Name": "GS",
+    "Description": "GROUND SPEED LSP",
+    "DataType": "float64",
+    "Offset": 110,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 650
+    }
+  },
+  {
+    "Name": "LATG",
+    "Description": "LATERAL ACCELERATION",
+    "DataType": "float64",
+    "Offset": 118,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "G",
+    "Range": {
+      "Min": -1,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "LONG",
+    "Description": "LONGITUDINAL ACCELERATION",
+    "DataType": "float64",
+    "Offset": 126,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "G",
+    "Range": {
+      "Min": -1,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "MACH",
+    "Description": "MACH LSP",
+    "DataType": "float64",
+    "Offset": 134,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "MACH",
+    "Range": {
+      "Min": 0.0,
+      "Max": 0.92
+    }
+  },
+  {
+    "Name": "MH",
+    "Description": "MAGNETIC HEADING LSP",
+    "DataType": "float64",
+    "Offset": 142,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "N1_1",
+    "Description": "FAN SPEED 1 LSP",
+    "DataType": "float64",
+    "Offset": 150,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N1_2",
+    "Description": "FAN SPEED 2 LSP",
+    "DataType": "float64",
+    "Offset": 158,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N1_3",
+    "Description": "FAN SPEED 3 LSP",
+    "DataType": "float64",
+    "Offset": 166,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 125
+    }
+  },
+  {
+    "Name": "N1_4",
+    "Description": "FAN SPEED 4 LSP",
+    "DataType": "float64",
+    "Offset": 174,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N1C",
+    "Description": "N1 COMMAND LSP",
+    "DataType": "float64",
+    "Offset": 182,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N1T",
+    "Description": "N1 TARGET LSP",
+    "DataType": "float64",
+    "Offset": 190,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N2_1",
+    "Description": "CORE SPEED 1 LSP",
+    "DataType": "float64",
+    "Offset": 198,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N2_2",
+    "Description": "CORE SPEED 2 LSP",
+    "DataType": "float64",
+    "Offset": 206,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N2_3",
+    "Description": "CORE SPEED 3 LSP",
+    "DataType": "float64",
+    "Offset": 214,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "N2_4",
+    "Description": "CORE SPEED 4 LSP",
+    "DataType": "float64",
+    "Offset": 222,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "%RPM",
+    "Range": {
+      "Min": 0,
+      "Max": 100
+    }
+  },
+  {
+    "Name": "PLA_1",
+    "Description": "POWER LEVER ANGLE 1",
+    "DataType": "float64",
+    "Offset": 230,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -30,
+      "Max": 130
+    }
+  },
+  {
+    "Name": "PLA_2",
+    "Description": "POWER LEVER ANGLE 2",
+    "DataType": "float64",
+    "Offset": 238,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -30,
+      "Max": 130
+    }
+  },
+  {
+    "Name": "PLA_3",
+    "Description": "POWER LEVER ANGLE 3",
+    "DataType": "float64",
+    "Offset": 246,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -30,
+      "Max": 130
+    }
+  },
+  {
+    "Name": "PLA_4",
+    "Description": "POWER LEVER ANGLE 4",
+    "DataType": "float64",
+    "Offset": 254,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -30,
+      "Max": 130
+    }
+  },
+  {
+    "Name": "TAS",
+    "Description": "TRUE AIRSPEED LSP",
+    "DataType": "float64",
+    "Offset": 262,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 600
+    }
+  },
+  {
+    "Name": "TH",
+    "Description": "TRUE HEADING LSP",
+    "DataType": "float64",
+    "Offset": 270,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "TRK",
+    "Description": "TRACK ANGLE TRUE LSP",
+    "DataType": "float64",
+    "Offset": 278,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "TRKM",
+    "Description": "TRACK ANGLE MAG LSP",
+    "DataType": "float64",
+    "Offset": 286,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "VIB_1",
+    "Description": "ENGINE VIBRATION 1",
+    "DataType": "float64",
+    "Offset": 294,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "IN/SEC",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VIB_2",
+    "Description": "ENGINE VIBRATION 2",
+    "DataType": "float64",
+    "Offset": 302,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "IN/SEC",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VIB_3",
+    "Description": "ENGINE VIBRATION 3",
+    "DataType": "float64",
+    "Offset": 310,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "IN/SEC",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VIB_4",
+    "Description": "ENGINE VIBRATION 4",
+    "DataType": "float64",
+    "Offset": 318,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "IN/SEC",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "WD",
+    "Description": "WIND DIRECTION TRUE",
+    "DataType": "float64",
+    "Offset": 326,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "WS",
+    "Description": "WIND SPEED",
+    "DataType": "float64",
+    "Offset": 334,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 4,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 200
+    }
+  },
+  {
+    "Name": "PTCH",
+    "Description": "PITCH ANGLE LSP",
+    "DataType": "float64",
+    "Offset": 0,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 8,
+    "Units": "DEG",
+    "Range": {
+      "Min": -40,
+      "Max": 40
+    }
+  },
+  {
+    "Name": "RALT",
+    "Description": "RADIO ALTITUDE LSP",
+    "DataType": "float64",
+    "Offset": 8,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 8,
+    "Units": "FEET",
+    "Range": {
+      "Min": -20,
+      "Max": 6000
+    }
+  },
+  {
+    "Name": "ROLL",
+    "Description": "ROLL ANGLE LSP",
+    "DataType": "float64",
+    "Offset": 16,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 8,
+    "Units": "DEG",
+    "Range": {
+      "Min": -90,
+      "Max": 90
+    }
+  },
+  {
+    "Name": "VRTG",
+    "Description": "VERTICAL ACCELERATION",
+    "DataType": "float64",
+    "Offset": 24,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 8,
+    "Units": "G",
+    "Range": {
+      "Min": -2,
+      "Max": 4
+    }
+  },
+  {
+    "Name": "BLAC",
+    "Description": "BODY LONGITUDINAL ACCELERATION",
+    "DataType": "float64",
+    "Offset": 0,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 16,
+    "Units": "G",
+    "Range": {
+      "Min": -0.7,
+      "Max": 0.7
+    }
+  },
+  {
+    "Name": "CTAC",
+    "Description": "CROSS TRACK ACCELERATION",
+    "DataType": "float64",
+    "Offset": 8,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 16,
+    "Units": "G",
+    "Range": {
+      "Min": -1.0,
+      "Max": 1.0
+    }
+  },
+  {
+    "Name": "FPAC",
+    "Description": "FLIGHT PATH ACCELERATION",
+    "DataType": "float64",
+    "Offset": 16,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 16,
+    "Units": "G",
+    "Range": {
+      "Min": -0.7,
+      "Max": 0.7
+    }
+  },
+  {
+    "Name": "IVV",
+    "Description": "INERTIAL VERTICAL SPEED LSP",
+    "DataType": "int16",
+    "Offset": 24,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 16,
+    "Units": "FT/MIN",
+    "Range": {
+      "Min": -7000,
+      "Max": 7000
+    }
+  }
+]
