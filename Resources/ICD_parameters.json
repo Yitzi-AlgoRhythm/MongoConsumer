@@ -1,5 +1,299 @@
 [
   {
+    "Name": "ACID",
+    "Description": "AIRCRAFT NUMBER",
+    "DataType": "uint16",
+    "Offset": 0,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "",
+    "Range": {
+      "Min": 652,
+      "Max": 687
+    }
+  },
+  {
+    "Name": "DVER_1",
+    "Description": "DATABASE ID VERSION CHAR 1",
+    "DataType": "uint8",
+    "Offset": 2,
+    "Size": 1,
+    "Mask": "0xFF",
+    "Correlator": 0,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 10000
+    }
+  },
+  {
+    "Name": "DVER_2",
+    "Description": "DATABASE ID VERSION CHAR 2",
+    "DataType": "uint8",
+    "Offset": 3,
+    "Size": 1,
+    "Mask": "0xFF",
+    "Correlator": 0,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ECYC_1",
+    "Description": "ENGINE CYCLE 1 LSP",
+    "DataType": "uint16",
+    "Offset": 4,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ECYC_2",
+    "Description": "ENGINE CYCLE 2 LSP",
+    "DataType": "uint16",
+    "Offset": 6,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ECYC_3",
+    "Description": "ENGINE CYCLE 3 LSP",
+    "DataType": "uint16",
+    "Offset": 8,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ECYC_4",
+    "Description": "ENGINE CYCLE 4 LSP",
+    "DataType": "uint16",
+    "Offset": 10,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "EHRS_1",
+    "Description": "ENGINE HOURS 1 LSP",
+    "DataType": "uint16",
+    "Offset": 12,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "EHRS_2",
+    "Description": "ENGINE HOURS 2 LSP",
+    "DataType": "uint16",
+    "Offset": 14,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "EHRS_3",
+    "Description": "ENGINE HOURS 3 LSP",
+    "DataType": "uint16",
+    "Offset": 16,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "EHRS_4",
+    "Description": "ENGINE HOURS 4 LSP",
+    "DataType": "uint16",
+    "Offset": 18,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "HOURS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ESN_1",
+    "Description": "ENGINE SERIAL NUMBER 1 LSP",
+    "DataType": "int32",
+    "Offset": 20,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 0,
+    "Units": "UNITS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ESN_2",
+    "Description": "ENGINE SERIAL NUMBER 2 LSP",
+    "DataType": "int32",
+    "Offset": 24,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 0,
+    "Units": "UNITS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ESN_3",
+    "Description": "ENGINE SERIAL NUMBER 3 LSP",
+    "DataType": "int32",
+    "Offset": 28,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 0,
+    "Units": "UNITS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "ESN_4",
+    "Description": "ENGINE SERIAL NUMBER 4 LSP",
+    "DataType": "int32",
+    "Offset": 32,
+    "Size": 4,
+    "Mask": "0xFFFFFFFF",
+    "Correlator": 0,
+    "Units": "UNITS",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "FRMC",
+    "Description": "FRAME COUNTER",
+    "DataType": "uint16",
+    "Offset": 36,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1000000
+    }
+  },
+  {
+    "Name": "VAR_1107",
+    "Description": "SYNC WORD FOR SUBFRAME 1",
+    "DataType": "uint16",
+    "Offset": 38,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "<units>",
+    "Range": {
+      "Min": 584,
+      "Max": 584
+    }
+  },
+  {
+    "Name": "VAR_2670",
+    "Description": "SYNC WORD FOR SUBFRAME 2",
+    "DataType": "uint16",
+    "Offset": 40,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "<units>",
+    "Range": {
+      "Min": 1465,
+      "Max": 1465
+    }
+  },
+  {
+    "Name": "VAR_5107",
+    "Description": "SYNC WORD FOR SUBFRAME 3",
+    "DataType": "uint16",
+    "Offset": 42,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "<units>",
+    "Range": {
+      "Min": 2632,
+      "Max": 2632
+    }
+  },
+  {
+    "Name": "VAR_6670",
+    "Description": "SYNC WORD FOR SUBFRAME 4",
+    "DataType": "uint16",
+    "Offset": 44,
+    "Size": 2,
+    "Mask": "0xFFFF",
+    "Correlator": 0,
+    "Units": "<units>",
+    "Range": {
+      "Min": 3513,
+      "Max": 3513
+    }
+  },
+  {
+    "Name": "A_T",
+    "Description": "THRUST AUTOMATIC ON",
+    "DataType": "uint1",
+    "Offset": 0,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
     "Name": "ABRK",
     "Description": "AIRBRAKE POSITION",
     "DataType": "float64",
@@ -11,6 +305,20 @@
     "Range": {
       "Min": 50,
       "Max": 130
+    }
+  },
+  {
+    "Name": "ACMT",
+    "Description": "ACMS TIMING USED T1HZ",
+    "DataType": "uint8",
+    "Offset": 8,
+    "Size": 2,
+    "Mask": "0x7F80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 100
     }
   },
   {
@@ -39,6 +347,62 @@
     "Range": {
       "Min": 25,
       "Max": 120
+    }
+  },
+  {
+    "Name": "ALTS",
+    "Description": "SELECTED ALTITUDE LSP",
+    "DataType": "int32",
+    "Offset": 25,
+    "Size": 5,
+    "Mask": "0x7FFFFFFF80",
+    "Correlator": 1,
+    "Units": "FEET",
+    "Range": {
+      "Min": 0,
+      "Max": 50000
+    }
+  },
+  {
+    "Name": "APFD",
+    "Description": "AP FD STATUS",
+    "DataType": "uint2",
+    "Offset": 29,
+    "Size": 1,
+    "Mask": "0x60",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 2
+    }
+  },
+  {
+    "Name": "ATEN",
+    "Description": "A/T ENGAGE STATUS",
+    "DataType": "uint1",
+    "Offset": 29,
+    "Size": 1,
+    "Mask": "0x10",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "BLV",
+    "Description": "BLEED AIR ALL VALVES",
+    "DataType": "uint4",
+    "Offset": 29,
+    "Size": 1,
+    "Mask": "0x0F",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
     }
   },
   {
@@ -98,6 +462,62 @@
     }
   },
   {
+    "Name": "CALT",
+    "Description": "CABIN HIGH ALTITUDE",
+    "DataType": "uint1",
+    "Offset": 62,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "CASS",
+    "Description": "SELECTED AIRSPEED",
+    "DataType": "float64",
+    "Offset": 62,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 400
+    }
+  },
+  {
+    "Name": "CRSS",
+    "Description": "SELECTED COURSE",
+    "DataType": "float64",
+    "Offset": 70,
+    "Size": 9,
+    "Mask": "0x7FFFFFFFFFFFFFFF80",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "DFGS",
+    "Description": "DFGS 1&2 MASTER",
+    "DataType": "uint1",
+    "Offset": 78,
+    "Size": 1,
+    "Mask": "0x40",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
     "Name": "DWPT",
     "Description": "DISTANCE TO WAYPOINT LSP",
     "DataType": "int32",
@@ -109,6 +529,20 @@
     "Range": {
       "Min": 0,
       "Max": 1000000
+    }
+  },
+  {
+    "Name": "EAI",
+    "Description": "ENGINE ANTICE ALL POSITIONS",
+    "DataType": "uint4",
+    "Offset": 82,
+    "Size": 1,
+    "Mask": "0x3C",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
     }
   },
   {
@@ -137,6 +571,118 @@
     "Range": {
       "Min": -180,
       "Max": 180
+    }
+  },
+  {
+    "Name": "EVNT",
+    "Description": "EVENT MARKER",
+    "DataType": "uint1",
+    "Offset": 98,
+    "Size": 1,
+    "Mask": "0x02",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "FADF",
+    "Description": "FADEC FAIL ALL ENGINES",
+    "DataType": "uint4",
+    "Offset": 98,
+    "Size": 2,
+    "Mask": "0x01E0",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
+    }
+  },
+  {
+    "Name": "FADS",
+    "Description": "FADEC STATUS ALL ENGINES",
+    "DataType": "uint4",
+    "Offset": 99,
+    "Size": 1,
+    "Mask": "0x1E",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
+    }
+  },
+  {
+    "Name": "FGC3",
+    "Description": "DFGS STATUS 3",
+    "DataType": "uint16",
+    "Offset": 99,
+    "Size": 3,
+    "Mask": "0x01FFFE",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 4500
+    }
+  },
+  {
+    "Name": "FIRE_1",
+    "Description": "ENGINE FIRE #1",
+    "DataType": "uint1",
+    "Offset": 101,
+    "Size": 1,
+    "Mask": "0x01",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "FIRE_2",
+    "Description": "ENGINE FIRE #2",
+    "DataType": "uint1",
+    "Offset": 102,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "FIRE_3",
+    "Description": "ENGINE FIRE #3",
+    "DataType": "uint1",
+    "Offset": 102,
+    "Size": 1,
+    "Mask": "0x40",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "FIRE_4",
+    "Description": "ENGINE FIRE #4",
+    "DataType": "uint1",
+    "Offset": 102,
+    "Size": 1,
+    "Mask": "0x20",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -224,6 +770,104 @@
     }
   },
   {
+    "Name": "GPWS",
+    "Description": "GPWS 1-5",
+    "DataType": "uint8",
+    "Offset": 120,
+    "Size": 2,
+    "Mask": "0x1FE0",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 255
+    }
+  },
+  {
+    "Name": "HDGS",
+    "Description": "SELECTED HEADING",
+    "DataType": "float64",
+    "Offset": 121,
+    "Size": 9,
+    "Mask": "0x1FFFFFFFFFFFFFFFE0",
+    "Correlator": 1,
+    "Units": "DEG",
+    "Range": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  {
+    "Name": "HF1",
+    "Description": "HF KEYING #1",
+    "DataType": "uint1",
+    "Offset": 129,
+    "Size": 1,
+    "Mask": "0x10",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "HF2",
+    "Description": "HF KEYING #2",
+    "DataType": "uint1",
+    "Offset": 129,
+    "Size": 1,
+    "Mask": "0x08",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "HYDG",
+    "Description": "LOW HYDRAULIC PRESSURE GREEN",
+    "DataType": "uint1",
+    "Offset": 129,
+    "Size": 1,
+    "Mask": "0x04",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "HYDY",
+    "Description": "LOW HYDRAULIC PRESSURE YELLOW",
+    "DataType": "uint1",
+    "Offset": 129,
+    "Size": 1,
+    "Mask": "0x02",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "ILSF",
+    "Description": "ILS FREQUENCY LSP",
+    "DataType": "int32",
+    "Offset": 129,
+    "Size": 5,
+    "Mask": "0x01FFFFFFFE",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 100,
+      "Max": 2800000
+    }
+  },
+  {
     "Name": "LATP",
     "Description": "LATITUDE POSITION LSP",
     "DataType": "float64",
@@ -235,6 +879,48 @@
     "Range": {
       "Min": -180,
       "Max": 180
+    }
+  },
+  {
+    "Name": "LGDN",
+    "Description": "GEARS L&R DOWN LOCKED",
+    "DataType": "uint1",
+    "Offset": 141,
+    "Size": 1,
+    "Mask": "0x01",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "LGUP",
+    "Description": "GEARS L&R UP LOCKED",
+    "DataType": "uint1",
+    "Offset": 142,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "LMOD",
+    "Description": "LATERAL ENGAGE MODES",
+    "DataType": "uint4",
+    "Offset": 142,
+    "Size": 1,
+    "Mask": "0x78",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
     }
   },
   {
@@ -263,6 +949,62 @@
     "Range": {
       "Min": -180,
       "Max": 180
+    }
+  },
+  {
+    "Name": "MNS",
+    "Description": "SELECTED MACH",
+    "DataType": "uint16",
+    "Offset": 158,
+    "Size": 3,
+    "Mask": "0x07FFF8",
+    "Correlator": 1,
+    "Units": "MMACH",
+    "Range": {
+      "Min": 0,
+      "Max": 1000
+    }
+  },
+  {
+    "Name": "MRK",
+    "Description": "MARKERS- INNER, MIDDLE, OUTER",
+    "DataType": "uint3",
+    "Offset": 160,
+    "Size": 1,
+    "Mask": "0x07",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 7
+    }
+  },
+  {
+    "Name": "MW",
+    "Description": "MASTER WARNING",
+    "DataType": "uint1",
+    "Offset": 161,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "N1CO",
+    "Description": "N1 COMPENSATION",
+    "DataType": "uint1",
+    "Offset": 161,
+    "Size": 1,
+    "Mask": "0x40",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -322,6 +1064,20 @@
     }
   },
   {
+    "Name": "OIPL",
+    "Description": "LOW OIL PRESSURE ALL ENGINES",
+    "DataType": "uint4",
+    "Offset": 193,
+    "Size": 1,
+    "Mask": "0x3C",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
+    }
+  },
+  {
     "Name": "OIT_1",
     "Description": "OIL TEMPERATURE 1",
     "DataType": "float64",
@@ -378,6 +1134,48 @@
     }
   },
   {
+    "Name": "PACK",
+    "Description": "PACK AIR CONDITIONING ALL",
+    "DataType": "uint2",
+    "Offset": 225,
+    "Size": 1,
+    "Mask": "0x03",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 3
+    }
+  },
+  {
+    "Name": "PH",
+    "Description": "FLIGHT PHASE FROM ACMS",
+    "DataType": "uint4",
+    "Offset": 226,
+    "Size": 1,
+    "Mask": "0xF0",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
+    }
+  },
+  {
+    "Name": "POVT",
+    "Description": "PYLON OVERHEAT ALL ENGINES",
+    "DataType": "uint1",
+    "Offset": 226,
+    "Size": 1,
+    "Mask": "0x08",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
     "Name": "PTRM",
     "Description": "PITCH TRIM POSITION",
     "DataType": "float64",
@@ -392,6 +1190,20 @@
     }
   },
   {
+    "Name": "PUSH",
+    "Description": "STICK PUSHER",
+    "DataType": "uint1",
+    "Offset": 234,
+    "Size": 1,
+    "Mask": "0x04",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
     "Name": "SAT",
     "Description": "STATIC AIR TEMPERATURE",
     "DataType": "float64",
@@ -403,6 +1215,48 @@
     "Range": {
       "Min": -75,
       "Max": 80
+    }
+  },
+  {
+    "Name": "SMKB",
+    "Description": "ANIMAL BAY SMOKE",
+    "DataType": "uint1",
+    "Offset": 242,
+    "Size": 1,
+    "Mask": "0x02",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "SMOK",
+    "Description": "SMOKE WARNING",
+    "DataType": "uint1",
+    "Offset": 242,
+    "Size": 1,
+    "Mask": "0x01",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "SNAP",
+    "Description": "MANUAL SNAPSHOT SWITCH",
+    "DataType": "uint1",
+    "Offset": 243,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -434,6 +1288,48 @@
     }
   },
   {
+    "Name": "SPLG",
+    "Description": "SPOILER DEPLOY GREEN",
+    "DataType": "uint1",
+    "Offset": 259,
+    "Size": 1,
+    "Mask": "0x40",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "SPLY",
+    "Description": "SPOILER DEPLOY YELLOW",
+    "DataType": "uint1",
+    "Offset": 259,
+    "Size": 1,
+    "Mask": "0x20",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "TAI",
+    "Description": "TAIL ANTICE ON",
+    "DataType": "uint1",
+    "Offset": 259,
+    "Size": 1,
+    "Mask": "0x10",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
     "Name": "TAT",
     "Description": "TOTAL AIR TEMPERATURE",
     "DataType": "float64",
@@ -445,6 +1341,188 @@
     "Range": {
       "Min": -30,
       "Max": 100
+    }
+  },
+  {
+    "Name": "TCAS",
+    "Description": "TCAS LSP",
+    "DataType": "uint1",
+    "Offset": 267,
+    "Size": 1,
+    "Mask": "0x08",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "TMAG",
+    "Description": "TRUE/MAG HEADING SELECT",
+    "DataType": "uint1",
+    "Offset": 267,
+    "Size": 1,
+    "Mask": "0x04",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "TMODE",
+    "Description": "THRUST MODE",
+    "DataType": "uint4",
+    "Offset": 267,
+    "Size": 2,
+    "Mask": "0x03C0",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 15
+    }
+  },
+  {
+    "Name": "VHF1",
+    "Description": "VHF KEYING #1",
+    "DataType": "uint1",
+    "Offset": 268,
+    "Size": 1,
+    "Mask": "0x20",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VHF2",
+    "Description": "VHF KEYING #2",
+    "DataType": "uint1",
+    "Offset": 268,
+    "Size": 1,
+    "Mask": "0x10",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VHF3",
+    "Description": "VHF KEYING #3",
+    "DataType": "uint1",
+    "Offset": 268,
+    "Size": 1,
+    "Mask": "0x08",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "VMODE",
+    "Description": "VERTICAL ENGAGE MODES",
+    "DataType": "uint8",
+    "Offset": 268,
+    "Size": 2,
+    "Mask": "0x07F8",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 31
+    }
+  },
+  {
+    "Name": "VSPS",
+    "Description": "SELECTED VERTICAL SPEED",
+    "DataType": "uint16",
+    "Offset": 269,
+    "Size": 3,
+    "Mask": "0x07FFF8",
+    "Correlator": 1,
+    "Units": "FT/MIN",
+    "Range": {
+      "Min": -7900,
+      "Max": 6000
+    }
+  },
+  {
+    "Name": "WAI_1",
+    "Description": "INNER WING DEICE",
+    "DataType": "uint1",
+    "Offset": 271,
+    "Size": 1,
+    "Mask": "0x04",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "WAI_2",
+    "Description": "OUTER WING ANTICE",
+    "DataType": "uint1",
+    "Offset": 271,
+    "Size": 1,
+    "Mask": "0x02",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "WOW",
+    "Description": "WEIGHT ON WHEELS",
+    "DataType": "uint1",
+    "Offset": 271,
+    "Size": 1,
+    "Mask": "0x01",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "WSHR",
+    "Description": "WINDSHEAR WARNING",
+    "DataType": "uint1",
+    "Offset": 272,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 1,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "APUF",
+    "Description": "APU FIRE WARNING",
+    "DataType": "uint1",
+    "Offset": 0,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 2,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -501,6 +1579,34 @@
     "Range": {
       "Min": 0,
       "Max": 3500
+    }
+  },
+  {
+    "Name": "MSQT_1",
+    "Description": "SQUAT SWITCH LEFT MAIN GEAR",
+    "DataType": "uint1",
+    "Offset": 8,
+    "Size": 1,
+    "Mask": "0x40",
+    "Correlator": 2,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "MSQT_2",
+    "Description": "SQUAT SWITCH RIGHT MAIN GEAR",
+    "DataType": "uint1",
+    "Offset": 8,
+    "Size": 1,
+    "Mask": "0x20",
+    "Correlator": 2,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -585,6 +1691,34 @@
     "Range": {
       "Min": 0,
       "Max": 3700
+    }
+  },
+  {
+    "Name": "SHKR",
+    "Description": "STICK SHAKER",
+    "DataType": "uint1",
+    "Offset": 50,
+    "Size": 1,
+    "Mask": "0x10",
+    "Correlator": 2,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  {
+    "Name": "TOCW",
+    "Description": "TAKEOFF CONF WARNING",
+    "DataType": "uint1",
+    "Offset": 50,
+    "Size": 1,
+    "Mask": "0x08",
+    "Correlator": 2,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {
@@ -711,6 +1845,20 @@
     "Range": {
       "Min": 0,
       "Max": 450
+    }
+  },
+  {
+    "Name": "CASM",
+    "Description": "MAX ALLOWABLE AIRSPEED",
+    "DataType": "float64",
+    "Offset": 54,
+    "Size": 8,
+    "Mask": "0xFFFFFFFFFFFFFFFF",
+    "Correlator": 4,
+    "Units": "KNOTS",
+    "Range": {
+      "Min": 0,
+      "Max": 300
     }
   },
   {
@@ -1047,6 +2195,20 @@
     "Range": {
       "Min": 0,
       "Max": 100
+    }
+  },
+  {
+    "Name": "NSQT",
+    "Description": "SQUAT SWITCH NOSE MAIN GEAR",
+    "DataType": "uint1",
+    "Offset": 230,
+    "Size": 1,
+    "Mask": "0x80",
+    "Correlator": 4,
+    "Units": "",
+    "Range": {
+      "Min": 0,
+      "Max": 1
     }
   },
   {

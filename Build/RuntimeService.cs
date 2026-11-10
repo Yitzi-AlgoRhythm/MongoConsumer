@@ -7,22 +7,25 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using MongoConsumer.Config;
 using MongoConsumer.Pipeline;
+using MongoConsumer.Pipeline.Data;
 using ParameterDataLib;
 
 namespace MongoConsumer.Build
 {
-    public class KafkaConsumerService : BackgroundService
+    public class RuntimeService : BackgroundService
     {
         private static readonly TimeSpan _retryDelay = TimeSpan.FromSeconds(2);
 
-        private readonly IPipeline _pipeline;
+        private readonly TelemetryPipeline _pipeline;
         private readonly KafkaConsumerConfig _config;
         private readonly IHostApplicationLifetime _lifetime;
 
-        public KafkaConsumerService(
-            IPipeline pipeline,
+        public RuntimeService
+        (
+            TelemetryPipeline pipeline,
             IOptions<KafkaConsumerConfig> options,
-            IHostApplicationLifetime lifetime)
+            IHostApplicationLifetime lifetime
+        )
         {
             _pipeline = pipeline;
             _config = options.Value;
@@ -40,7 +43,8 @@ namespace MongoConsumer.Build
             {
                 BootstrapServers = _config.BootstrapServers,
                 GroupId = _config.GroupId,
-                AutoOffsetReset = AutoOffsetReset.Earliest
+                AutoOffsetReset = AutoOffsetReset.Earliest,
+                EnableAutoOffsetStore = false
             };
 
             using IConsumer<string, string> consumer = new ConsumerBuilder<string, string>(consumerConfig).Build();
@@ -80,16 +84,19 @@ namespace MongoConsumer.Build
                     {
                         Console.WriteLine($"Skipping malformed message at {result.TopicPartitionOffset}");
                         Console.WriteLine(ex);
+                        consumer.StoreOffset(result);
                         continue;
                     }
 
                     if (batch is null || batch.Length == 0)
                     {
                         Console.WriteLine($"Skipping empty message at {result.TopicPartitionOffset}");
+                        consumer.StoreOffset(result);
                         continue;
                     }
 
-                    await _pipeline.StartAsync(batch, token);
+                    await _pipeline.ProcessAsync(batch, token);
+                    consumer.StoreOffset(result);
                 }
             }
             catch (OperationCanceledException) when (token.IsCancellationRequested)
@@ -107,8 +114,7 @@ namespace MongoConsumer.Build
             {
                 try
                 {
-                    _pipeline.Complete();
-                    await _pipeline.Completion;
+                    await ShutdownPipelineAsync();
                 }
                 catch (Exception ex)
                 {
@@ -121,6 +127,25 @@ namespace MongoConsumer.Build
                     consumer.Close();
                 }
             }
+        }
+
+        private async Task ShutdownPipelineAsync()
+        {
+            if (_pipeline.HasFaulted)
+                return;
+
+            await _pipeline.CompleteInputAsync();
+
+            // A block may have faulted while draining; the flight then stays open for the next InitAsync.
+            if (_pipeline.HasFaulted)
+                return;
+
+            foreach (PersistBatch batch in _pipeline.Flush())
+                await _pipeline.WriteAsync(batch);
+
+            await _pipeline.CompleteWritesAsync();
+
+            await _pipeline.CloseCurrentFlightAsync();
         }
     }
 }
