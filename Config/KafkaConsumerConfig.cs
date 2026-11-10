@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MongoConsumer.Config
+﻿namespace MongoConsumer.Config
 {
     public class KafkaConsumerConfig
     {

@@ -43,7 +43,7 @@ namespace MongoConsumer.Build
             {
                 BootstrapServers = _config.BootstrapServers,
                 GroupId = _config.GroupId,
-                AutoOffsetReset = AutoOffsetReset.Earliest,
+                AutoOffsetReset = AutoOffsetReset.Latest,
                 EnableAutoOffsetStore = false
             };
 

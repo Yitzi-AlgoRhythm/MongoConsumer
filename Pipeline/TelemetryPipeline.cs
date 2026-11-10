@@ -56,16 +56,23 @@ namespace MongoConsumer.Pipeline
                 t =>
                 {
                     if (t.IsFaulted)
+                    {
+                        Console.WriteLine("Collect stage faulted:");
+                        Console.WriteLine(t.Exception!.Flatten());
                         ((IDataflowBlock)_writeBlock).Fault(t.Exception!);
+                    }
                 },
                 TaskScheduler.Default);
 
-            // A fault anywhere ends up here, and the consumer's SendAsync would otherwise wait forever.
             _writeBlock.Completion.ContinueWith(
                 t =>
                 {
                     if (t.IsFaulted)
+                    {
+                        Console.WriteLine("Pipeline faulted, stopping the application:");
+                        Console.WriteLine(t.Exception!.Flatten());
                         _lifetime.StopApplication();
+                    }
                 },
                 TaskScheduler.Default);
         }

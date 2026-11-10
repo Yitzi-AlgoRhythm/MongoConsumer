@@ -18,6 +18,8 @@ namespace MongoConsumer.Pipeline.Stages
         /// <summary>The delegate given to the ActionBlock.</summary>
         public async Task WriteAsync(PersistBatch batch)
         {
+            Console.WriteLine("Writing batch " + batch.ToString());
+
             foreach (KeyValuePair<string, List<TelemetrySample>> entry in batch.Samples)
             {
                 if (entry.Value.Count == 0)

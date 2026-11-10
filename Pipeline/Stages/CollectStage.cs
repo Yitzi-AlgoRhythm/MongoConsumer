@@ -100,6 +100,8 @@ namespace MongoConsumer.Pipeline.Stages
 
                 foreach (ParameterData sample in group.OrderBy(d => d.TimestampMS))
                 {
+                    Console.WriteLine("Collecting sample " + sample.Name);
+
                     DateTime timestamp = ToUtc(sample.TimestampMS);
                     long micros = SlabMath.MicrosSinceEpoch(timestamp);
 

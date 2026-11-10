@@ -77,6 +77,8 @@ namespace MongoConsumer.Pipeline.Stages
                 previousFlightId = _currentFlightId;
                 _currentFlightId = newFlight.Id;
                 _latestTimestamp = latest;
+
+                Console.WriteLine("Created new flight " + _currentFlightId);
             }
             else if (!_latestTimestamp.HasValue || latest > _latestTimestamp.Value)
             {
