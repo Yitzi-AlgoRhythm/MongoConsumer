@@ -1,0 +1,6100 @@
+[{
+  "_id": {
+    "$oid": "6af4e10e4d20af548edd3eab"
+  },
+  "startTime": {
+    "$date": "2001-01-09T20:09:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-09T20:41:51.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "ROLL": {
+      "$numberLong": "15776"
+    },
+    "LONG": {
+      "$numberLong": "7888"
+    },
+    "RUDP": {
+      "$numberLong": "3944"
+    },
+    "OIP_2": {
+      "$numberLong": "1972"
+    },
+    "BPYR_1": {
+      "$numberLong": "1972"
+    },
+    "VIB_2": {
+      "$numberLong": "7888"
+    },
+    "BAL1": {
+      "$numberLong": "7888"
+    },
+    "DA": {
+      "$numberLong": "7888"
+    },
+    "PLA_3": {
+      "$numberLong": "7888"
+    },
+    "LATP": {
+      "$numberLong": "1972"
+    },
+    "FF_1": {
+      "$numberLong": "7888"
+    },
+    "FQTY_1": {
+      "$numberLong": "1972"
+    },
+    "PI": {
+      "$numberLong": "3944"
+    },
+    "AOAC": {
+      "$numberLong": "7888"
+    },
+    "TRK": {
+      "$numberLong": "7888"
+    },
+    "GS": {
+      "$numberLong": "7888"
+    },
+    "MH": {
+      "$numberLong": "7888"
+    },
+    "GLS": {
+      "$numberLong": "1972"
+    },
+    "OIP_1": {
+      "$numberLong": "1972"
+    },
+    "AOA1": {
+      "$numberLong": "7888"
+    },
+    "AOAI": {
+      "$numberLong": "7888"
+    },
+    "N2_2": {
+      "$numberLong": "7888"
+    },
+    "WS": {
+      "$numberLong": "7888"
+    },
+    "PTRM": {
+      "$numberLong": "1972"
+    },
+    "IVV": {
+      "$numberLong": "31552"
+    },
+    "ALT": {
+      "$numberLong": "7888"
+    },
+    "AIL_2": {
+      "$numberLong": "1972"
+    },
+    "OIT_2": {
+      "$numberLong": "1972"
+    },
+    "N1C": {
+      "$numberLong": "7888"
+    },
+    "OIT_4": {
+      "$numberLong": "1972"
+    },
+    "CWPF": {
+      "$numberLong": "3944"
+    },
+    "FF_4": {
+      "$numberLong": "7888"
+    },
+    "FPAC": {
+      "$numberLong": "31552"
+    },
+    "OIP_4": {
+      "$numberLong": "1972"
+    },
+    "AOA2": {
+      "$numberLong": "7888"
+    },
+    "TAT": {
+      "$numberLong": "1972"
+    },
+    "TH": {
+      "$numberLong": "7888"
+    },
+    "N1T": {
+      "$numberLong": "7888"
+    },
+    "PLA_2": {
+      "$numberLong": "7888"
+    },
+    "EGT_2": {
+      "$numberLong": "7888"
+    },
+    "N1_2": {
+      "$numberLong": "7888"
+    },
+    "RALT": {
+      "$numberLong": "15776"
+    },
+    "VIB_4": {
+      "$numberLong": "7888"
+    },
+    "SPL_2": {
+      "$numberLong": "1972"
+    },
+    "PTCH": {
+      "$numberLong": "15776"
+    },
+    "WD": {
+      "$numberLong": "7888"
+    },
+    "CCPF": {
+      "$numberLong": "3944"
+    },
+    "TAS": {
+      "$numberLong": "7888"
+    },
+    "PLA_4": {
+      "$numberLong": "7888"
+    },
+    "EGT_3": {
+      "$numberLong": "7888"
+    },
+    "PS": {
+      "$numberLong": "3944"
+    },
+    "DWPT": {
+      "$numberLong": "1972"
+    },
+    "EGT_1": {
+      "$numberLong": "7888"
+    },
+    "OIT_1": {
+      "$numberLong": "1972"
+    },
+    "N2_1": {
+      "$numberLong": "7888"
+    },
+    "ALTR": {
+      "$numberLong": "7888"
+    },
+    "ELEV_2": {
+      "$numberLong": "1972"
+    },
+    "SPL_1": {
+      "$numberLong": "1972"
+    },
+    "TRKM": {
+      "$numberLong": "7888"
+    },
+    "CWPC": {
+      "$numberLong": "3944"
+    },
+    "N1_1": {
+      "$numberLong": "7888"
+    },
+    "PLA_1": {
+      "$numberLong": "7888"
+    },
+    "FLAP": {
+      "$numberLong": "1972"
+    },
+    "BPGR_2": {
+      "$numberLong": "1972"
+    },
+    "FF_2": {
+      "$numberLong": "7888"
+    },
+    "FQTY_3": {
+      "$numberLong": "1972"
+    },
+    "N1_4": {
+      "$numberLong": "7888"
+    },
+    "N2_4": {
+      "$numberLong": "7888"
+    },
+    "VIB_1": {
+      "$numberLong": "7888"
+    },
+    "ABRK": {
+      "$numberLong": "1972"
+    },
+    "AIL_1": {
+      "$numberLong": "1972"
+    },
+    "PSA": {
+      "$numberLong": "3944"
+    },
+    "BPYR_2": {
+      "$numberLong": "1972"
+    },
+    "N1_3": {
+      "$numberLong": "7888"
+    },
+    "PT": {
+      "$numberLong": "3944"
+    },
+    "ELEV_1": {
+      "$numberLong": "1972"
+    },
+    "FF_3": {
+      "$numberLong": "7888"
+    },
+    "FQTY_4": {
+      "$numberLong": "1972"
+    },
+    "LATG": {
+      "$numberLong": "7888"
+    },
+    "CTAC": {
+      "$numberLong": "31552"
+    },
+    "CAS": {
+      "$numberLong": "7888"
+    },
+    "OIP_3": {
+      "$numberLong": "1972"
+    },
+    "RUDD": {
+      "$numberLong": "3944"
+    },
+    "FQTY_2": {
+      "$numberLong": "1972"
+    },
+    "LOC": {
+      "$numberLong": "1972"
+    },
+    "LONP": {
+      "$numberLong": "1972"
+    },
+    "MACH": {
+      "$numberLong": "7888"
+    },
+    "N2_3": {
+      "$numberLong": "7888"
+    },
+    "VIB_3": {
+      "$numberLong": "7888"
+    },
+    "EGT_4": {
+      "$numberLong": "7888"
+    },
+    "OIT_3": {
+      "$numberLong": "1972"
+    },
+    "SAT": {
+      "$numberLong": "1972"
+    },
+    "BLAC": {
+      "$numberLong": "31552"
+    },
+    "BAL2": {
+      "$numberLong": "7888"
+    },
+    "BPGR_1": {
+      "$numberLong": "1972"
+    },
+    "VRTG": {
+      "$numberLong": "15776"
+    },
+    "CCPC": {
+      "$numberLong": "3944"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e1604d20af548edd4a6b"
+  },
+  "startTime": {
+    "$date": "2001-01-09T20:46:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-09T21:01:47.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "IVV": {
+      "$numberLong": "15168"
+    },
+    "PT": {
+      "$numberLong": "1896"
+    },
+    "PTRM": {
+      "$numberLong": "948"
+    },
+    "ABRK": {
+      "$numberLong": "948"
+    },
+    "N2_2": {
+      "$numberLong": "3792"
+    },
+    "VIB_3": {
+      "$numberLong": "3792"
+    },
+    "WS": {
+      "$numberLong": "3792"
+    },
+    "OIP_1": {
+      "$numberLong": "948"
+    },
+    "AOAI": {
+      "$numberLong": "3792"
+    },
+    "GLS": {
+      "$numberLong": "948"
+    },
+    "PI": {
+      "$numberLong": "1896"
+    },
+    "FF_1": {
+      "$numberLong": "3792"
+    },
+    "TRK": {
+      "$numberLong": "3792"
+    },
+    "AOA1": {
+      "$numberLong": "3792"
+    },
+    "FQTY_1": {
+      "$numberLong": "948"
+    },
+    "ALT": {
+      "$numberLong": "3792"
+    },
+    "GS": {
+      "$numberLong": "3792"
+    },
+    "LATP": {
+      "$numberLong": "948"
+    },
+    "PLA_3": {
+      "$numberLong": "3792"
+    },
+    "BPYR_1": {
+      "$numberLong": "948"
+    },
+    "DA": {
+      "$numberLong": "3792"
+    },
+    "LONG": {
+      "$numberLong": "3792"
+    },
+    "AOAC": {
+      "$numberLong": "3792"
+    },
+    "MH": {
+      "$numberLong": "3792"
+    },
+    "OIP_2": {
+      "$numberLong": "948"
+    },
+    "PLA_2": {
+      "$numberLong": "3792"
+    },
+    "ROLL": {
+      "$numberLong": "7584"
+    },
+    "RUDP": {
+      "$numberLong": "1896"
+    },
+    "N1T": {
+      "$numberLong": "3792"
+    },
+    "EGT_2": {
+      "$numberLong": "3792"
+    },
+    "N1_2": {
+      "$numberLong": "3792"
+    },
+    "TAT": {
+      "$numberLong": "948"
+    },
+    "TH": {
+      "$numberLong": "3792"
+    },
+    "OIP_4": {
+      "$numberLong": "948"
+    },
+    "FF_4": {
+      "$numberLong": "3792"
+    },
+    "FPAC": {
+      "$numberLong": "15168"
+    },
+    "AOA2": {
+      "$numberLong": "3792"
+    },
+    "CWPF": {
+      "$numberLong": "1896"
+    },
+    "OIT_4": {
+      "$numberLong": "948"
+    },
+    "OIT_2": {
+      "$numberLong": "948"
+    },
+    "FQTY_3": {
+      "$numberLong": "948"
+    },
+    "FF_2": {
+      "$numberLong": "3792"
+    },
+    "N2_4": {
+      "$numberLong": "3792"
+    },
+    "AIL_2": {
+      "$numberLong": "948"
+    },
+    "FLAP": {
+      "$numberLong": "948"
+    },
+    "N1C": {
+      "$numberLong": "3792"
+    },
+    "CWPC": {
+      "$numberLong": "1896"
+    },
+    "N1_1": {
+      "$numberLong": "3792"
+    },
+    "N1_3": {
+      "$numberLong": "3792"
+    },
+    "ELEV_2": {
+      "$numberLong": "948"
+    },
+    "BPGR_2": {
+      "$numberLong": "948"
+    },
+    "N2_1": {
+      "$numberLong": "3792"
+    },
+    "OIT_1": {
+      "$numberLong": "948"
+    },
+    "N1_4": {
+      "$numberLong": "3792"
+    },
+    "PLA_1": {
+      "$numberLong": "3792"
+    },
+    "DWPT": {
+      "$numberLong": "948"
+    },
+    "ALTR": {
+      "$numberLong": "3792"
+    },
+    "AIL_1": {
+      "$numberLong": "948"
+    },
+    "SPL_1": {
+      "$numberLong": "948"
+    },
+    "EGT_3": {
+      "$numberLong": "3792"
+    },
+    "PLA_4": {
+      "$numberLong": "3792"
+    },
+    "PS": {
+      "$numberLong": "1896"
+    },
+    "TRKM": {
+      "$numberLong": "3792"
+    },
+    "TAS": {
+      "$numberLong": "3792"
+    },
+    "VIB_1": {
+      "$numberLong": "3792"
+    },
+    "EGT_1": {
+      "$numberLong": "3792"
+    },
+    "PTCH": {
+      "$numberLong": "7584"
+    },
+    "SPL_2": {
+      "$numberLong": "948"
+    },
+    "VIB_2": {
+      "$numberLong": "3792"
+    },
+    "VIB_4": {
+      "$numberLong": "3792"
+    },
+    "RALT": {
+      "$numberLong": "7584"
+    },
+    "BAL1": {
+      "$numberLong": "3792"
+    },
+    "CCPC": {
+      "$numberLong": "1896"
+    },
+    "CCPF": {
+      "$numberLong": "1896"
+    },
+    "WD": {
+      "$numberLong": "3792"
+    },
+    "SAT": {
+      "$numberLong": "948"
+    },
+    "OIT_3": {
+      "$numberLong": "948"
+    },
+    "BAL2": {
+      "$numberLong": "3792"
+    },
+    "EGT_4": {
+      "$numberLong": "3792"
+    },
+    "VRTG": {
+      "$numberLong": "7584"
+    },
+    "N2_3": {
+      "$numberLong": "3792"
+    },
+    "BLAC": {
+      "$numberLong": "15168"
+    },
+    "FQTY_2": {
+      "$numberLong": "948"
+    },
+    "LONP": {
+      "$numberLong": "948"
+    },
+    "RUDD": {
+      "$numberLong": "1896"
+    },
+    "LOC": {
+      "$numberLong": "948"
+    },
+    "CAS": {
+      "$numberLong": "3792"
+    },
+    "CTAC": {
+      "$numberLong": "15168"
+    },
+    "FF_3": {
+      "$numberLong": "3792"
+    },
+    "OIP_3": {
+      "$numberLong": "948"
+    },
+    "ELEV_1": {
+      "$numberLong": "948"
+    },
+    "BPGR_1": {
+      "$numberLong": "948"
+    },
+    "FQTY_4": {
+      "$numberLong": "948"
+    },
+    "LATG": {
+      "$numberLong": "3792"
+    },
+    "MACH": {
+      "$numberLong": "3792"
+    },
+    "BPYR_2": {
+      "$numberLong": "948"
+    },
+    "PSA": {
+      "$numberLong": "1896"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e1964d20af548edd507c"
+  },
+  "startTime": {
+    "$date": "2001-01-10T04:41:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-10T04:45:31.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "DWPT": {
+      "$numberLong": "272"
+    },
+    "ALTR": {
+      "$numberLong": "1088"
+    },
+    "EGT_3": {
+      "$numberLong": "1088"
+    },
+    "PLA_4": {
+      "$numberLong": "1088"
+    },
+    "AOA2": {
+      "$numberLong": "1088"
+    },
+    "PS": {
+      "$numberLong": "544"
+    },
+    "TAS": {
+      "$numberLong": "1088"
+    },
+    "EGT_1": {
+      "$numberLong": "1088"
+    },
+    "PTCH": {
+      "$numberLong": "2176"
+    },
+    "SPL_2": {
+      "$numberLong": "272"
+    },
+    "VIB_4": {
+      "$numberLong": "1088"
+    },
+    "CCPF": {
+      "$numberLong": "544"
+    },
+    "RALT": {
+      "$numberLong": "2176"
+    },
+    "FQTY_3": {
+      "$numberLong": "272"
+    },
+    "FF_2": {
+      "$numberLong": "1088"
+    },
+    "FLAP": {
+      "$numberLong": "272"
+    },
+    "N2_4": {
+      "$numberLong": "1088"
+    },
+    "N1_3": {
+      "$numberLong": "1088"
+    },
+    "N1_4": {
+      "$numberLong": "1088"
+    },
+    "CWPC": {
+      "$numberLong": "544"
+    },
+    "N1_1": {
+      "$numberLong": "1088"
+    },
+    "PLA_1": {
+      "$numberLong": "1088"
+    },
+    "ELEV_2": {
+      "$numberLong": "272"
+    },
+    "BPGR_2": {
+      "$numberLong": "272"
+    },
+    "N2_1": {
+      "$numberLong": "1088"
+    },
+    "OIT_1": {
+      "$numberLong": "272"
+    },
+    "SPL_1": {
+      "$numberLong": "272"
+    },
+    "TRKM": {
+      "$numberLong": "1088"
+    },
+    "VIB_1": {
+      "$numberLong": "1088"
+    },
+    "RUDD": {
+      "$numberLong": "544"
+    },
+    "AIL_1": {
+      "$numberLong": "272"
+    },
+    "CAS": {
+      "$numberLong": "1088"
+    },
+    "CTAC": {
+      "$numberLong": "4352"
+    },
+    "VIB_2": {
+      "$numberLong": "1088"
+    },
+    "ELEV_1": {
+      "$numberLong": "272"
+    },
+    "OIP_3": {
+      "$numberLong": "272"
+    },
+    "WD": {
+      "$numberLong": "1088"
+    },
+    "FF_3": {
+      "$numberLong": "1088"
+    },
+    "FQTY_4": {
+      "$numberLong": "272"
+    },
+    "LATG": {
+      "$numberLong": "1088"
+    },
+    "LOC": {
+      "$numberLong": "272"
+    },
+    "BPYR_2": {
+      "$numberLong": "272"
+    },
+    "MACH": {
+      "$numberLong": "1088"
+    },
+    "PSA": {
+      "$numberLong": "544"
+    },
+    "BAL1": {
+      "$numberLong": "1088"
+    },
+    "CCPC": {
+      "$numberLong": "544"
+    },
+    "PT": {
+      "$numberLong": "544"
+    },
+    "ABRK": {
+      "$numberLong": "272"
+    },
+    "VIB_3": {
+      "$numberLong": "1088"
+    },
+    "SAT": {
+      "$numberLong": "272"
+    },
+    "OIT_3": {
+      "$numberLong": "272"
+    },
+    "BAL2": {
+      "$numberLong": "1088"
+    },
+    "EGT_4": {
+      "$numberLong": "1088"
+    },
+    "VRTG": {
+      "$numberLong": "2176"
+    },
+    "N2_3": {
+      "$numberLong": "1088"
+    },
+    "BLAC": {
+      "$numberLong": "4352"
+    },
+    "FQTY_2": {
+      "$numberLong": "272"
+    },
+    "FF_1": {
+      "$numberLong": "1088"
+    },
+    "FQTY_1": {
+      "$numberLong": "272"
+    },
+    "MH": {
+      "$numberLong": "1088"
+    },
+    "GS": {
+      "$numberLong": "1088"
+    },
+    "PI": {
+      "$numberLong": "544"
+    },
+    "LATP": {
+      "$numberLong": "272"
+    },
+    "LONP": {
+      "$numberLong": "272"
+    },
+    "BPGR_1": {
+      "$numberLong": "272"
+    },
+    "PLA_3": {
+      "$numberLong": "1088"
+    },
+    "BPYR_1": {
+      "$numberLong": "272"
+    },
+    "DA": {
+      "$numberLong": "1088"
+    },
+    "LONG": {
+      "$numberLong": "1088"
+    },
+    "AOAC": {
+      "$numberLong": "1088"
+    },
+    "OIP_2": {
+      "$numberLong": "272"
+    },
+    "IVV": {
+      "$numberLong": "4352"
+    },
+    "PTRM": {
+      "$numberLong": "272"
+    },
+    "ROLL": {
+      "$numberLong": "2176"
+    },
+    "N2_2": {
+      "$numberLong": "1088"
+    },
+    "RUDP": {
+      "$numberLong": "544"
+    },
+    "TRK": {
+      "$numberLong": "1088"
+    },
+    "WS": {
+      "$numberLong": "1088"
+    },
+    "OIP_1": {
+      "$numberLong": "272"
+    },
+    "AOAI": {
+      "$numberLong": "1088"
+    },
+    "GLS": {
+      "$numberLong": "272"
+    },
+    "FF_4": {
+      "$numberLong": "1088"
+    },
+    "FPAC": {
+      "$numberLong": "4352"
+    },
+    "AOA1": {
+      "$numberLong": "1088"
+    },
+    "ALT": {
+      "$numberLong": "1088"
+    },
+    "CWPF": {
+      "$numberLong": "544"
+    },
+    "OIT_4": {
+      "$numberLong": "272"
+    },
+    "OIT_2": {
+      "$numberLong": "272"
+    },
+    "N1C": {
+      "$numberLong": "1088"
+    },
+    "PLA_2": {
+      "$numberLong": "1088"
+    },
+    "EGT_2": {
+      "$numberLong": "1088"
+    },
+    "TH": {
+      "$numberLong": "1088"
+    },
+    "AIL_2": {
+      "$numberLong": "272"
+    },
+    "N1T": {
+      "$numberLong": "1088"
+    },
+    "N1_2": {
+      "$numberLong": "1088"
+    },
+    "TAT": {
+      "$numberLong": "272"
+    },
+    "OIP_4": {
+      "$numberLong": "272"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e1a64d20af548edd5245"
+  },
+  "startTime": {
+    "$date": "2001-01-11T15:19:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-11T15:28:59.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PLA_4": {
+      "$numberLong": "2400"
+    },
+    "PS": {
+      "$numberLong": "1200"
+    },
+    "ALTR": {
+      "$numberLong": "2400"
+    },
+    "AOA2": {
+      "$numberLong": "2400"
+    },
+    "VIB_4": {
+      "$numberLong": "2400"
+    },
+    "RALT": {
+      "$numberLong": "4800"
+    },
+    "CCPF": {
+      "$numberLong": "1200"
+    },
+    "DWPT": {
+      "$numberLong": "600"
+    },
+    "EGT_1": {
+      "$numberLong": "2400"
+    },
+    "SPL_2": {
+      "$numberLong": "600"
+    },
+    "EGT_3": {
+      "$numberLong": "2400"
+    },
+    "PTCH": {
+      "$numberLong": "4800"
+    },
+    "PLA_1": {
+      "$numberLong": "2400"
+    },
+    "CWPC": {
+      "$numberLong": "1200"
+    },
+    "TAS": {
+      "$numberLong": "2400"
+    },
+    "FQTY_3": {
+      "$numberLong": "600"
+    },
+    "WD": {
+      "$numberLong": "2400"
+    },
+    "FLAP": {
+      "$numberLong": "600"
+    },
+    "FF_2": {
+      "$numberLong": "2400"
+    },
+    "N2_4": {
+      "$numberLong": "2400"
+    },
+    "OIT_1": {
+      "$numberLong": "600"
+    },
+    "N1_1": {
+      "$numberLong": "2400"
+    },
+    "N1_3": {
+      "$numberLong": "2400"
+    },
+    "N1_4": {
+      "$numberLong": "2400"
+    },
+    "VIB_2": {
+      "$numberLong": "2400"
+    },
+    "BPGR_2": {
+      "$numberLong": "600"
+    },
+    "ELEV_2": {
+      "$numberLong": "600"
+    },
+    "FF_3": {
+      "$numberLong": "2400"
+    },
+    "N2_1": {
+      "$numberLong": "2400"
+    },
+    "AIL_1": {
+      "$numberLong": "600"
+    },
+    "OIP_3": {
+      "$numberLong": "600"
+    },
+    "CAS": {
+      "$numberLong": "2400"
+    },
+    "RUDD": {
+      "$numberLong": "1200"
+    },
+    "ELEV_1": {
+      "$numberLong": "600"
+    },
+    "SPL_1": {
+      "$numberLong": "600"
+    },
+    "BPYR_2": {
+      "$numberLong": "600"
+    },
+    "CTAC": {
+      "$numberLong": "9600"
+    },
+    "TRKM": {
+      "$numberLong": "2400"
+    },
+    "FQTY_4": {
+      "$numberLong": "600"
+    },
+    "PT": {
+      "$numberLong": "1200"
+    },
+    "LATG": {
+      "$numberLong": "2400"
+    },
+    "LOC": {
+      "$numberLong": "600"
+    },
+    "MACH": {
+      "$numberLong": "2400"
+    },
+    "PSA": {
+      "$numberLong": "1200"
+    },
+    "VIB_1": {
+      "$numberLong": "2400"
+    },
+    "OIT_3": {
+      "$numberLong": "600"
+    },
+    "ABRK": {
+      "$numberLong": "600"
+    },
+    "SAT": {
+      "$numberLong": "600"
+    },
+    "CCPC": {
+      "$numberLong": "1200"
+    },
+    "VIB_3": {
+      "$numberLong": "2400"
+    },
+    "BAL1": {
+      "$numberLong": "2400"
+    },
+    "LONP": {
+      "$numberLong": "600"
+    },
+    "BAL2": {
+      "$numberLong": "2400"
+    },
+    "BLAC": {
+      "$numberLong": "9600"
+    },
+    "BPGR_1": {
+      "$numberLong": "600"
+    },
+    "EGT_4": {
+      "$numberLong": "2400"
+    },
+    "FQTY_2": {
+      "$numberLong": "600"
+    },
+    "N2_3": {
+      "$numberLong": "2400"
+    },
+    "VRTG": {
+      "$numberLong": "4800"
+    },
+    "LATP": {
+      "$numberLong": "600"
+    },
+    "PLA_3": {
+      "$numberLong": "2400"
+    },
+    "MH": {
+      "$numberLong": "2400"
+    },
+    "FF_1": {
+      "$numberLong": "2400"
+    },
+    "FQTY_1": {
+      "$numberLong": "600"
+    },
+    "DA": {
+      "$numberLong": "2400"
+    },
+    "PI": {
+      "$numberLong": "1200"
+    },
+    "ROLL": {
+      "$numberLong": "4800"
+    },
+    "RUDP": {
+      "$numberLong": "1200"
+    },
+    "BPYR_1": {
+      "$numberLong": "600"
+    },
+    "OIP_2": {
+      "$numberLong": "600"
+    },
+    "AOAC": {
+      "$numberLong": "2400"
+    },
+    "GS": {
+      "$numberLong": "2400"
+    },
+    "TRK": {
+      "$numberLong": "2400"
+    },
+    "LONG": {
+      "$numberLong": "2400"
+    },
+    "IVV": {
+      "$numberLong": "9600"
+    },
+    "N2_2": {
+      "$numberLong": "2400"
+    },
+    "PTRM": {
+      "$numberLong": "600"
+    },
+    "WS": {
+      "$numberLong": "2400"
+    },
+    "AOAI": {
+      "$numberLong": "2400"
+    },
+    "OIP_1": {
+      "$numberLong": "600"
+    },
+    "ALT": {
+      "$numberLong": "2400"
+    },
+    "CWPF": {
+      "$numberLong": "1200"
+    },
+    "AOA1": {
+      "$numberLong": "2400"
+    },
+    "FF_4": {
+      "$numberLong": "2400"
+    },
+    "FPAC": {
+      "$numberLong": "9600"
+    },
+    "OIT_2": {
+      "$numberLong": "600"
+    },
+    "GLS": {
+      "$numberLong": "600"
+    },
+    "OIT_4": {
+      "$numberLong": "600"
+    },
+    "N1C": {
+      "$numberLong": "2400"
+    },
+    "N1T": {
+      "$numberLong": "2400"
+    },
+    "N1_2": {
+      "$numberLong": "2400"
+    },
+    "TAT": {
+      "$numberLong": "600"
+    },
+    "AIL_2": {
+      "$numberLong": "600"
+    },
+    "PLA_2": {
+      "$numberLong": "2400"
+    },
+    "EGT_2": {
+      "$numberLong": "2400"
+    },
+    "TH": {
+      "$numberLong": "2400"
+    },
+    "OIP_4": {
+      "$numberLong": "600"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e1c94d20af548edd562d"
+  },
+  "startTime": {
+    "$date": "2001-01-11T16:22:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-11T16:29:15.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PTCH": {
+      "$numberLong": "3488"
+    },
+    "TAS": {
+      "$numberLong": "1744"
+    },
+    "TAT": {
+      "$numberLong": "436"
+    },
+    "N1T": {
+      "$numberLong": "1744"
+    },
+    "N1_2": {
+      "$numberLong": "1744"
+    },
+    "PLA_2": {
+      "$numberLong": "1744"
+    },
+    "EGT_2": {
+      "$numberLong": "1744"
+    },
+    "TH": {
+      "$numberLong": "1744"
+    },
+    "WD": {
+      "$numberLong": "1744"
+    },
+    "OIP_4": {
+      "$numberLong": "436"
+    },
+    "CWPF": {
+      "$numberLong": "872"
+    },
+    "FF_4": {
+      "$numberLong": "1744"
+    },
+    "AOA2": {
+      "$numberLong": "1744"
+    },
+    "FPAC": {
+      "$numberLong": "6976"
+    },
+    "OIT_2": {
+      "$numberLong": "436"
+    },
+    "OIT_4": {
+      "$numberLong": "436"
+    },
+    "N1C": {
+      "$numberLong": "1744"
+    },
+    "AIL_2": {
+      "$numberLong": "436"
+    },
+    "PTRM": {
+      "$numberLong": "436"
+    },
+    "N2_2": {
+      "$numberLong": "1744"
+    },
+    "WS": {
+      "$numberLong": "1744"
+    },
+    "IVV": {
+      "$numberLong": "6976"
+    },
+    "AOAI": {
+      "$numberLong": "1744"
+    },
+    "OIP_1": {
+      "$numberLong": "436"
+    },
+    "GLS": {
+      "$numberLong": "436"
+    },
+    "ALT": {
+      "$numberLong": "1744"
+    },
+    "PLA_3": {
+      "$numberLong": "1744"
+    },
+    "LATP": {
+      "$numberLong": "436"
+    },
+    "AOA1": {
+      "$numberLong": "1744"
+    },
+    "FF_1": {
+      "$numberLong": "1744"
+    },
+    "FQTY_1": {
+      "$numberLong": "436"
+    },
+    "GS": {
+      "$numberLong": "1744"
+    },
+    "DA": {
+      "$numberLong": "1744"
+    },
+    "PI": {
+      "$numberLong": "872"
+    },
+    "ROLL": {
+      "$numberLong": "3488"
+    },
+    "RUDP": {
+      "$numberLong": "872"
+    },
+    "BPYR_1": {
+      "$numberLong": "436"
+    },
+    "OIP_2": {
+      "$numberLong": "436"
+    },
+    "AOAC": {
+      "$numberLong": "1744"
+    },
+    "LONG": {
+      "$numberLong": "1744"
+    },
+    "MH": {
+      "$numberLong": "1744"
+    },
+    "OIT_3": {
+      "$numberLong": "436"
+    },
+    "SAT": {
+      "$numberLong": "436"
+    },
+    "CCPC": {
+      "$numberLong": "872"
+    },
+    "TRK": {
+      "$numberLong": "1744"
+    },
+    "BAL1": {
+      "$numberLong": "1744"
+    },
+    "LONP": {
+      "$numberLong": "436"
+    },
+    "BAL2": {
+      "$numberLong": "1744"
+    },
+    "BLAC": {
+      "$numberLong": "6976"
+    },
+    "BPGR_1": {
+      "$numberLong": "436"
+    },
+    "EGT_4": {
+      "$numberLong": "1744"
+    },
+    "FQTY_2": {
+      "$numberLong": "436"
+    },
+    "N2_3": {
+      "$numberLong": "1744"
+    },
+    "FF_3": {
+      "$numberLong": "1744"
+    },
+    "MACH": {
+      "$numberLong": "1744"
+    },
+    "FQTY_4": {
+      "$numberLong": "436"
+    },
+    "OIP_3": {
+      "$numberLong": "436"
+    },
+    "CAS": {
+      "$numberLong": "1744"
+    },
+    "ELEV_1": {
+      "$numberLong": "436"
+    },
+    "RUDD": {
+      "$numberLong": "872"
+    },
+    "VRTG": {
+      "$numberLong": "3488"
+    },
+    "BPYR_2": {
+      "$numberLong": "436"
+    },
+    "CTAC": {
+      "$numberLong": "6976"
+    },
+    "LATG": {
+      "$numberLong": "1744"
+    },
+    "LOC": {
+      "$numberLong": "436"
+    },
+    "PT": {
+      "$numberLong": "872"
+    },
+    "PSA": {
+      "$numberLong": "872"
+    },
+    "VIB_3": {
+      "$numberLong": "1744"
+    },
+    "PLA_1": {
+      "$numberLong": "1744"
+    },
+    "CWPC": {
+      "$numberLong": "872"
+    },
+    "ABRK": {
+      "$numberLong": "436"
+    },
+    "FQTY_3": {
+      "$numberLong": "436"
+    },
+    "FLAP": {
+      "$numberLong": "436"
+    },
+    "FF_2": {
+      "$numberLong": "1744"
+    },
+    "N2_4": {
+      "$numberLong": "1744"
+    },
+    "OIT_1": {
+      "$numberLong": "436"
+    },
+    "N1_1": {
+      "$numberLong": "1744"
+    },
+    "N1_3": {
+      "$numberLong": "1744"
+    },
+    "N1_4": {
+      "$numberLong": "1744"
+    },
+    "VIB_2": {
+      "$numberLong": "1744"
+    },
+    "BPGR_2": {
+      "$numberLong": "436"
+    },
+    "ELEV_2": {
+      "$numberLong": "436"
+    },
+    "N2_1": {
+      "$numberLong": "1744"
+    },
+    "PLA_4": {
+      "$numberLong": "1744"
+    },
+    "AIL_1": {
+      "$numberLong": "436"
+    },
+    "EGT_3": {
+      "$numberLong": "1744"
+    },
+    "PS": {
+      "$numberLong": "872"
+    },
+    "SPL_1": {
+      "$numberLong": "436"
+    },
+    "ALTR": {
+      "$numberLong": "1744"
+    },
+    "TRKM": {
+      "$numberLong": "1744"
+    },
+    "VIB_1": {
+      "$numberLong": "1744"
+    },
+    "VIB_4": {
+      "$numberLong": "1744"
+    },
+    "RALT": {
+      "$numberLong": "3488"
+    },
+    "CCPF": {
+      "$numberLong": "872"
+    },
+    "DWPT": {
+      "$numberLong": "436"
+    },
+    "EGT_1": {
+      "$numberLong": "1744"
+    },
+    "SPL_2": {
+      "$numberLong": "436"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e1e34d20af548edd5936"
+  },
+  "startTime": {
+    "$date": "2001-01-11T23:03:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-11T23:13:35.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "DWPT": {
+      "$numberLong": "636"
+    },
+    "ALTR": {
+      "$numberLong": "2544"
+    },
+    "TAT": {
+      "$numberLong": "636"
+    },
+    "N1T": {
+      "$numberLong": "2544"
+    },
+    "N1_2": {
+      "$numberLong": "2544"
+    },
+    "EGT_1": {
+      "$numberLong": "2544"
+    },
+    "EGT_2": {
+      "$numberLong": "2544"
+    },
+    "PLA_2": {
+      "$numberLong": "2544"
+    },
+    "TH": {
+      "$numberLong": "2544"
+    },
+    "WD": {
+      "$numberLong": "2544"
+    },
+    "OIP_4": {
+      "$numberLong": "636"
+    },
+    "CWPF": {
+      "$numberLong": "1272"
+    },
+    "AOA2": {
+      "$numberLong": "2544"
+    },
+    "FF_4": {
+      "$numberLong": "2544"
+    },
+    "OIT_2": {
+      "$numberLong": "636"
+    },
+    "FPAC": {
+      "$numberLong": "10176"
+    },
+    "N1C": {
+      "$numberLong": "2544"
+    },
+    "OIT_4": {
+      "$numberLong": "636"
+    },
+    "AIL_2": {
+      "$numberLong": "636"
+    },
+    "N2_2": {
+      "$numberLong": "2544"
+    },
+    "PTRM": {
+      "$numberLong": "636"
+    },
+    "WS": {
+      "$numberLong": "2544"
+    },
+    "IVV": {
+      "$numberLong": "10176"
+    },
+    "AOAI": {
+      "$numberLong": "2544"
+    },
+    "OIP_1": {
+      "$numberLong": "636"
+    },
+    "GLS": {
+      "$numberLong": "636"
+    },
+    "LATP": {
+      "$numberLong": "636"
+    },
+    "PLA_3": {
+      "$numberLong": "2544"
+    },
+    "PI": {
+      "$numberLong": "1272"
+    },
+    "AOA1": {
+      "$numberLong": "2544"
+    },
+    "FF_1": {
+      "$numberLong": "2544"
+    },
+    "ALT": {
+      "$numberLong": "2544"
+    },
+    "FQTY_1": {
+      "$numberLong": "636"
+    },
+    "ROLL": {
+      "$numberLong": "5088"
+    },
+    "GS": {
+      "$numberLong": "2544"
+    },
+    "LONG": {
+      "$numberLong": "2544"
+    },
+    "DA": {
+      "$numberLong": "2544"
+    },
+    "BPYR_1": {
+      "$numberLong": "636"
+    },
+    "AOAC": {
+      "$numberLong": "2544"
+    },
+    "OIP_2": {
+      "$numberLong": "636"
+    },
+    "RUDP": {
+      "$numberLong": "1272"
+    },
+    "OIT_3": {
+      "$numberLong": "636"
+    },
+    "MH": {
+      "$numberLong": "2544"
+    },
+    "SAT": {
+      "$numberLong": "636"
+    },
+    "TRK": {
+      "$numberLong": "2544"
+    },
+    "CCPC": {
+      "$numberLong": "1272"
+    },
+    "BAL1": {
+      "$numberLong": "2544"
+    },
+    "BAL2": {
+      "$numberLong": "2544"
+    },
+    "FQTY_2": {
+      "$numberLong": "636"
+    },
+    "BLAC": {
+      "$numberLong": "10176"
+    },
+    "BPGR_1": {
+      "$numberLong": "636"
+    },
+    "LONP": {
+      "$numberLong": "636"
+    },
+    "N2_3": {
+      "$numberLong": "2544"
+    },
+    "EGT_4": {
+      "$numberLong": "2544"
+    },
+    "ELEV_1": {
+      "$numberLong": "636"
+    },
+    "OIP_3": {
+      "$numberLong": "636"
+    },
+    "FQTY_4": {
+      "$numberLong": "636"
+    },
+    "FF_3": {
+      "$numberLong": "2544"
+    },
+    "LATG": {
+      "$numberLong": "2544"
+    },
+    "MACH": {
+      "$numberLong": "2544"
+    },
+    "VRTG": {
+      "$numberLong": "5088"
+    },
+    "RUDD": {
+      "$numberLong": "1272"
+    },
+    "CAS": {
+      "$numberLong": "2544"
+    },
+    "CTAC": {
+      "$numberLong": "10176"
+    },
+    "BPYR_2": {
+      "$numberLong": "636"
+    },
+    "LOC": {
+      "$numberLong": "636"
+    },
+    "PSA": {
+      "$numberLong": "1272"
+    },
+    "VIB_3": {
+      "$numberLong": "2544"
+    },
+    "PT": {
+      "$numberLong": "1272"
+    },
+    "N1_1": {
+      "$numberLong": "2544"
+    },
+    "PLA_1": {
+      "$numberLong": "2544"
+    },
+    "ABRK": {
+      "$numberLong": "636"
+    },
+    "CWPC": {
+      "$numberLong": "1272"
+    },
+    "FF_2": {
+      "$numberLong": "2544"
+    },
+    "FLAP": {
+      "$numberLong": "636"
+    },
+    "FQTY_3": {
+      "$numberLong": "636"
+    },
+    "N2_4": {
+      "$numberLong": "2544"
+    },
+    "N1_3": {
+      "$numberLong": "2544"
+    },
+    "N1_4": {
+      "$numberLong": "2544"
+    },
+    "ELEV_2": {
+      "$numberLong": "636"
+    },
+    "BPGR_2": {
+      "$numberLong": "636"
+    },
+    "N2_1": {
+      "$numberLong": "2544"
+    },
+    "OIT_1": {
+      "$numberLong": "636"
+    },
+    "SPL_1": {
+      "$numberLong": "636"
+    },
+    "TRKM": {
+      "$numberLong": "2544"
+    },
+    "EGT_3": {
+      "$numberLong": "2544"
+    },
+    "PLA_4": {
+      "$numberLong": "2544"
+    },
+    "AIL_1": {
+      "$numberLong": "636"
+    },
+    "PS": {
+      "$numberLong": "1272"
+    },
+    "VIB_1": {
+      "$numberLong": "2544"
+    },
+    "VIB_2": {
+      "$numberLong": "2544"
+    },
+    "CCPF": {
+      "$numberLong": "1272"
+    },
+    "RALT": {
+      "$numberLong": "5088"
+    },
+    "VIB_4": {
+      "$numberLong": "2544"
+    },
+    "PTCH": {
+      "$numberLong": "5088"
+    },
+    "SPL_2": {
+      "$numberLong": "636"
+    },
+    "TAS": {
+      "$numberLong": "2544"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e2084d20af548edd5d62"
+  },
+  "startTime": {
+    "$date": "2001-01-12T09:16:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T10:17:55.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "CAS": {
+      "$numberLong": "14864"
+    },
+    "ALT": {
+      "$numberLong": "14864"
+    },
+    "RUDD": {
+      "$numberLong": "7432"
+    },
+    "CTAC": {
+      "$numberLong": "59456"
+    },
+    "FF_3": {
+      "$numberLong": "14864"
+    },
+    "AOA1": {
+      "$numberLong": "14864"
+    },
+    "ELEV_1": {
+      "$numberLong": "3716"
+    },
+    "OIP_3": {
+      "$numberLong": "3716"
+    },
+    "PT": {
+      "$numberLong": "7432"
+    },
+    "FQTY_4": {
+      "$numberLong": "3716"
+    },
+    "LATG": {
+      "$numberLong": "14864"
+    },
+    "BPYR_2": {
+      "$numberLong": "3716"
+    },
+    "LOC": {
+      "$numberLong": "3716"
+    },
+    "MACH": {
+      "$numberLong": "14864"
+    },
+    "PSA": {
+      "$numberLong": "7432"
+    },
+    "VIB_3": {
+      "$numberLong": "14864"
+    },
+    "CCPC": {
+      "$numberLong": "7432"
+    },
+    "ABRK": {
+      "$numberLong": "3716"
+    },
+    "OIT_3": {
+      "$numberLong": "3716"
+    },
+    "SAT": {
+      "$numberLong": "3716"
+    },
+    "BAL1": {
+      "$numberLong": "14864"
+    },
+    "BAL2": {
+      "$numberLong": "14864"
+    },
+    "N2_3": {
+      "$numberLong": "14864"
+    },
+    "EGT_4": {
+      "$numberLong": "14864"
+    },
+    "BLAC": {
+      "$numberLong": "59456"
+    },
+    "LONP": {
+      "$numberLong": "3716"
+    },
+    "BPGR_1": {
+      "$numberLong": "3716"
+    },
+    "FQTY_2": {
+      "$numberLong": "3716"
+    },
+    "VRTG": {
+      "$numberLong": "29728"
+    },
+    "DWPT": {
+      "$numberLong": "3716"
+    },
+    "ALTR": {
+      "$numberLong": "14864"
+    },
+    "PLA_4": {
+      "$numberLong": "14864"
+    },
+    "PS": {
+      "$numberLong": "7432"
+    },
+    "EGT_1": {
+      "$numberLong": "14864"
+    },
+    "SPL_2": {
+      "$numberLong": "3716"
+    },
+    "EGT_3": {
+      "$numberLong": "14864"
+    },
+    "PTCH": {
+      "$numberLong": "29728"
+    },
+    "TAS": {
+      "$numberLong": "14864"
+    },
+    "RALT": {
+      "$numberLong": "29728"
+    },
+    "CCPF": {
+      "$numberLong": "7432"
+    },
+    "VIB_4": {
+      "$numberLong": "14864"
+    },
+    "FQTY_3": {
+      "$numberLong": "3716"
+    },
+    "FLAP": {
+      "$numberLong": "3716"
+    },
+    "FF_2": {
+      "$numberLong": "14864"
+    },
+    "N2_4": {
+      "$numberLong": "14864"
+    },
+    "PLA_1": {
+      "$numberLong": "14864"
+    },
+    "CWPC": {
+      "$numberLong": "7432"
+    },
+    "N1_1": {
+      "$numberLong": "14864"
+    },
+    "N1_3": {
+      "$numberLong": "14864"
+    },
+    "N1_4": {
+      "$numberLong": "14864"
+    },
+    "BPGR_2": {
+      "$numberLong": "3716"
+    },
+    "ELEV_2": {
+      "$numberLong": "3716"
+    },
+    "N2_1": {
+      "$numberLong": "14864"
+    },
+    "OIT_1": {
+      "$numberLong": "3716"
+    },
+    "SPL_1": {
+      "$numberLong": "3716"
+    },
+    "TRKM": {
+      "$numberLong": "14864"
+    },
+    "VIB_1": {
+      "$numberLong": "14864"
+    },
+    "VIB_2": {
+      "$numberLong": "14864"
+    },
+    "AIL_1": {
+      "$numberLong": "3716"
+    },
+    "WD": {
+      "$numberLong": "14864"
+    },
+    "FF_4": {
+      "$numberLong": "14864"
+    },
+    "CWPF": {
+      "$numberLong": "7432"
+    },
+    "FPAC": {
+      "$numberLong": "59456"
+    },
+    "OIT_4": {
+      "$numberLong": "3716"
+    },
+    "N1C": {
+      "$numberLong": "14864"
+    },
+    "OIT_2": {
+      "$numberLong": "3716"
+    },
+    "PLA_2": {
+      "$numberLong": "14864"
+    },
+    "EGT_2": {
+      "$numberLong": "14864"
+    },
+    "TH": {
+      "$numberLong": "14864"
+    },
+    "AIL_2": {
+      "$numberLong": "3716"
+    },
+    "N1T": {
+      "$numberLong": "14864"
+    },
+    "N1_2": {
+      "$numberLong": "14864"
+    },
+    "TAT": {
+      "$numberLong": "3716"
+    },
+    "OIP_4": {
+      "$numberLong": "3716"
+    },
+    "FF_1": {
+      "$numberLong": "14864"
+    },
+    "MH": {
+      "$numberLong": "14864"
+    },
+    "PI": {
+      "$numberLong": "7432"
+    },
+    "FQTY_1": {
+      "$numberLong": "3716"
+    },
+    "AOA2": {
+      "$numberLong": "14864"
+    },
+    "GS": {
+      "$numberLong": "14864"
+    },
+    "PLA_3": {
+      "$numberLong": "14864"
+    },
+    "BPYR_1": {
+      "$numberLong": "3716"
+    },
+    "OIP_2": {
+      "$numberLong": "3716"
+    },
+    "LATP": {
+      "$numberLong": "3716"
+    },
+    "DA": {
+      "$numberLong": "14864"
+    },
+    "LONG": {
+      "$numberLong": "14864"
+    },
+    "ROLL": {
+      "$numberLong": "29728"
+    },
+    "AOAC": {
+      "$numberLong": "14864"
+    },
+    "PTRM": {
+      "$numberLong": "3716"
+    },
+    "N2_2": {
+      "$numberLong": "14864"
+    },
+    "RUDP": {
+      "$numberLong": "7432"
+    },
+    "IVV": {
+      "$numberLong": "59456"
+    },
+    "TRK": {
+      "$numberLong": "14864"
+    },
+    "WS": {
+      "$numberLong": "14864"
+    },
+    "OIP_1": {
+      "$numberLong": "3716"
+    },
+    "GLS": {
+      "$numberLong": "3716"
+    },
+    "AOAI": {
+      "$numberLong": "14864"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e2da4d20af548edd74e1"
+  },
+  "startTime": {
+    "$date": "2001-01-12T11:17:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T11:30:19.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "AOAI": {
+      "$numberLong": "3200"
+    },
+    "CTAC": {
+      "$numberLong": "12800"
+    },
+    "CAS": {
+      "$numberLong": "3200"
+    },
+    "OIP_3": {
+      "$numberLong": "800"
+    },
+    "ELEV_1": {
+      "$numberLong": "800"
+    },
+    "AOA1": {
+      "$numberLong": "3200"
+    },
+    "ALT": {
+      "$numberLong": "3200"
+    },
+    "RUDD": {
+      "$numberLong": "1600"
+    },
+    "FF_3": {
+      "$numberLong": "3200"
+    },
+    "PSA": {
+      "$numberLong": "1600"
+    },
+    "PT": {
+      "$numberLong": "1600"
+    },
+    "FQTY_4": {
+      "$numberLong": "800"
+    },
+    "LATG": {
+      "$numberLong": "3200"
+    },
+    "LOC": {
+      "$numberLong": "800"
+    },
+    "BPYR_2": {
+      "$numberLong": "800"
+    },
+    "MACH": {
+      "$numberLong": "3200"
+    },
+    "VIB_3": {
+      "$numberLong": "3200"
+    },
+    "ABRK": {
+      "$numberLong": "800"
+    },
+    "CCPC": {
+      "$numberLong": "1600"
+    },
+    "OIT_3": {
+      "$numberLong": "800"
+    },
+    "SAT": {
+      "$numberLong": "800"
+    },
+    "BAL1": {
+      "$numberLong": "3200"
+    },
+    "BAL2": {
+      "$numberLong": "3200"
+    },
+    "N2_3": {
+      "$numberLong": "3200"
+    },
+    "EGT_4": {
+      "$numberLong": "3200"
+    },
+    "FQTY_2": {
+      "$numberLong": "800"
+    },
+    "VRTG": {
+      "$numberLong": "6400"
+    },
+    "LONP": {
+      "$numberLong": "800"
+    },
+    "ALTR": {
+      "$numberLong": "3200"
+    },
+    "PLA_4": {
+      "$numberLong": "3200"
+    },
+    "PS": {
+      "$numberLong": "1600"
+    },
+    "PTCH": {
+      "$numberLong": "6400"
+    },
+    "BLAC": {
+      "$numberLong": "12800"
+    },
+    "BPGR_1": {
+      "$numberLong": "800"
+    },
+    "CCPF": {
+      "$numberLong": "1600"
+    },
+    "DWPT": {
+      "$numberLong": "800"
+    },
+    "RALT": {
+      "$numberLong": "6400"
+    },
+    "SPL_2": {
+      "$numberLong": "800"
+    },
+    "EGT_1": {
+      "$numberLong": "3200"
+    },
+    "EGT_3": {
+      "$numberLong": "3200"
+    },
+    "FF_2": {
+      "$numberLong": "3200"
+    },
+    "FLAP": {
+      "$numberLong": "800"
+    },
+    "FQTY_3": {
+      "$numberLong": "800"
+    },
+    "CWPC": {
+      "$numberLong": "1600"
+    },
+    "N2_4": {
+      "$numberLong": "3200"
+    },
+    "N1_1": {
+      "$numberLong": "3200"
+    },
+    "ELEV_2": {
+      "$numberLong": "800"
+    },
+    "N2_1": {
+      "$numberLong": "3200"
+    },
+    "N1_3": {
+      "$numberLong": "3200"
+    },
+    "N1_4": {
+      "$numberLong": "3200"
+    },
+    "BPGR_2": {
+      "$numberLong": "800"
+    },
+    "PLA_1": {
+      "$numberLong": "3200"
+    },
+    "SPL_1": {
+      "$numberLong": "800"
+    },
+    "OIT_1": {
+      "$numberLong": "800"
+    },
+    "TAS": {
+      "$numberLong": "3200"
+    },
+    "TRKM": {
+      "$numberLong": "3200"
+    },
+    "VIB_1": {
+      "$numberLong": "3200"
+    },
+    "VIB_2": {
+      "$numberLong": "3200"
+    },
+    "AIL_1": {
+      "$numberLong": "800"
+    },
+    "VIB_4": {
+      "$numberLong": "3200"
+    },
+    "WD": {
+      "$numberLong": "3200"
+    },
+    "CWPF": {
+      "$numberLong": "1600"
+    },
+    "FF_4": {
+      "$numberLong": "3200"
+    },
+    "FPAC": {
+      "$numberLong": "12800"
+    },
+    "OIT_2": {
+      "$numberLong": "800"
+    },
+    "OIT_4": {
+      "$numberLong": "800"
+    },
+    "N1C": {
+      "$numberLong": "3200"
+    },
+    "AIL_2": {
+      "$numberLong": "800"
+    },
+    "PLA_2": {
+      "$numberLong": "3200"
+    },
+    "TH": {
+      "$numberLong": "3200"
+    },
+    "TAT": {
+      "$numberLong": "800"
+    },
+    "EGT_2": {
+      "$numberLong": "3200"
+    },
+    "N1T": {
+      "$numberLong": "3200"
+    },
+    "N1_2": {
+      "$numberLong": "3200"
+    },
+    "OIP_4": {
+      "$numberLong": "800"
+    },
+    "FF_1": {
+      "$numberLong": "3200"
+    },
+    "AOA2": {
+      "$numberLong": "3200"
+    },
+    "FQTY_1": {
+      "$numberLong": "800"
+    },
+    "GS": {
+      "$numberLong": "3200"
+    },
+    "LATP": {
+      "$numberLong": "800"
+    },
+    "PI": {
+      "$numberLong": "1600"
+    },
+    "MH": {
+      "$numberLong": "3200"
+    },
+    "PLA_3": {
+      "$numberLong": "3200"
+    },
+    "TRK": {
+      "$numberLong": "3200"
+    },
+    "BPYR_1": {
+      "$numberLong": "800"
+    },
+    "OIP_2": {
+      "$numberLong": "800"
+    },
+    "ROLL": {
+      "$numberLong": "6400"
+    },
+    "DA": {
+      "$numberLong": "3200"
+    },
+    "LONG": {
+      "$numberLong": "3200"
+    },
+    "RUDP": {
+      "$numberLong": "1600"
+    },
+    "N2_2": {
+      "$numberLong": "3200"
+    },
+    "PTRM": {
+      "$numberLong": "800"
+    },
+    "WS": {
+      "$numberLong": "3200"
+    },
+    "IVV": {
+      "$numberLong": "12800"
+    },
+    "OIP_1": {
+      "$numberLong": "800"
+    },
+    "GLS": {
+      "$numberLong": "800"
+    },
+    "AOAC": {
+      "$numberLong": "3200"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e3094d20af548edd7a30"
+  },
+  "startTime": {
+    "$date": "2001-01-12T11:18:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T12:46:07.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "TH": {
+      "$numberLong": "21152"
+    },
+    "VIB_4": {
+      "$numberLong": "21152"
+    },
+    "WD": {
+      "$numberLong": "21152"
+    },
+    "PLA_2": {
+      "$numberLong": "21152"
+    },
+    "TAT": {
+      "$numberLong": "5288"
+    },
+    "EGT_2": {
+      "$numberLong": "21152"
+    },
+    "N1T": {
+      "$numberLong": "21152"
+    },
+    "N1_2": {
+      "$numberLong": "21152"
+    },
+    "OIP_4": {
+      "$numberLong": "5288"
+    },
+    "FF_4": {
+      "$numberLong": "21152"
+    },
+    "AOA2": {
+      "$numberLong": "21152"
+    },
+    "FPAC": {
+      "$numberLong": "84608"
+    },
+    "CWPF": {
+      "$numberLong": "10576"
+    },
+    "OIT_4": {
+      "$numberLong": "5288"
+    },
+    "OIT_2": {
+      "$numberLong": "5288"
+    },
+    "N2_2": {
+      "$numberLong": "21152"
+    },
+    "WS": {
+      "$numberLong": "21152"
+    },
+    "AIL_2": {
+      "$numberLong": "5288"
+    },
+    "PTRM": {
+      "$numberLong": "5288"
+    },
+    "IVV": {
+      "$numberLong": "84608"
+    },
+    "N1C": {
+      "$numberLong": "21152"
+    },
+    "GLS": {
+      "$numberLong": "5288"
+    },
+    "OIP_1": {
+      "$numberLong": "5288"
+    },
+    "ALT": {
+      "$numberLong": "21152"
+    },
+    "FF_1": {
+      "$numberLong": "21152"
+    },
+    "MH": {
+      "$numberLong": "21152"
+    },
+    "PI": {
+      "$numberLong": "10576"
+    },
+    "PLA_3": {
+      "$numberLong": "21152"
+    },
+    "AOA1": {
+      "$numberLong": "21152"
+    },
+    "TRK": {
+      "$numberLong": "21152"
+    },
+    "AOAI": {
+      "$numberLong": "21152"
+    },
+    "BPYR_1": {
+      "$numberLong": "5288"
+    },
+    "FQTY_1": {
+      "$numberLong": "5288"
+    },
+    "GS": {
+      "$numberLong": "21152"
+    },
+    "OIP_2": {
+      "$numberLong": "5288"
+    },
+    "ROLL": {
+      "$numberLong": "42304"
+    },
+    "LATP": {
+      "$numberLong": "5288"
+    },
+    "RUDP": {
+      "$numberLong": "10576"
+    },
+    "AOAC": {
+      "$numberLong": "21152"
+    },
+    "DA": {
+      "$numberLong": "21152"
+    },
+    "LONG": {
+      "$numberLong": "21152"
+    },
+    "CCPC": {
+      "$numberLong": "10576"
+    },
+    "OIT_3": {
+      "$numberLong": "5288"
+    },
+    "SAT": {
+      "$numberLong": "5288"
+    },
+    "N2_3": {
+      "$numberLong": "21152"
+    },
+    "BAL1": {
+      "$numberLong": "21152"
+    },
+    "BAL2": {
+      "$numberLong": "21152"
+    },
+    "EGT_4": {
+      "$numberLong": "21152"
+    },
+    "VRTG": {
+      "$numberLong": "42304"
+    },
+    "FQTY_2": {
+      "$numberLong": "5288"
+    },
+    "BLAC": {
+      "$numberLong": "84608"
+    },
+    "LONP": {
+      "$numberLong": "5288"
+    },
+    "CAS": {
+      "$numberLong": "21152"
+    },
+    "CTAC": {
+      "$numberLong": "84608"
+    },
+    "RUDD": {
+      "$numberLong": "10576"
+    },
+    "ELEV_1": {
+      "$numberLong": "5288"
+    },
+    "FF_3": {
+      "$numberLong": "21152"
+    },
+    "OIP_3": {
+      "$numberLong": "5288"
+    },
+    "PSA": {
+      "$numberLong": "10576"
+    },
+    "FQTY_4": {
+      "$numberLong": "5288"
+    },
+    "PT": {
+      "$numberLong": "10576"
+    },
+    "BPGR_1": {
+      "$numberLong": "5288"
+    },
+    "LATG": {
+      "$numberLong": "21152"
+    },
+    "LOC": {
+      "$numberLong": "5288"
+    },
+    "BPYR_2": {
+      "$numberLong": "5288"
+    },
+    "MACH": {
+      "$numberLong": "21152"
+    },
+    "FLAP": {
+      "$numberLong": "5288"
+    },
+    "FF_2": {
+      "$numberLong": "21152"
+    },
+    "N2_4": {
+      "$numberLong": "21152"
+    },
+    "ABRK": {
+      "$numberLong": "5288"
+    },
+    "FQTY_3": {
+      "$numberLong": "5288"
+    },
+    "CWPC": {
+      "$numberLong": "10576"
+    },
+    "VIB_3": {
+      "$numberLong": "21152"
+    },
+    "PLA_1": {
+      "$numberLong": "21152"
+    },
+    "N2_1": {
+      "$numberLong": "21152"
+    },
+    "ELEV_2": {
+      "$numberLong": "5288"
+    },
+    "N1_1": {
+      "$numberLong": "21152"
+    },
+    "N1_3": {
+      "$numberLong": "21152"
+    },
+    "BPGR_2": {
+      "$numberLong": "5288"
+    },
+    "N1_4": {
+      "$numberLong": "21152"
+    },
+    "OIT_1": {
+      "$numberLong": "5288"
+    },
+    "SPL_1": {
+      "$numberLong": "5288"
+    },
+    "TRKM": {
+      "$numberLong": "21152"
+    },
+    "VIB_1": {
+      "$numberLong": "21152"
+    },
+    "VIB_2": {
+      "$numberLong": "21152"
+    },
+    "EGT_1": {
+      "$numberLong": "21152"
+    },
+    "AIL_1": {
+      "$numberLong": "5288"
+    },
+    "ALTR": {
+      "$numberLong": "21152"
+    },
+    "PLA_4": {
+      "$numberLong": "21152"
+    },
+    "EGT_3": {
+      "$numberLong": "21152"
+    },
+    "PS": {
+      "$numberLong": "10576"
+    },
+    "PTCH": {
+      "$numberLong": "42304"
+    },
+    "SPL_2": {
+      "$numberLong": "5288"
+    },
+    "TAS": {
+      "$numberLong": "21152"
+    },
+    "DWPT": {
+      "$numberLong": "5288"
+    },
+    "CCPF": {
+      "$numberLong": "10576"
+    },
+    "RALT": {
+      "$numberLong": "42304"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e40d4d20af548edd9bea"
+  },
+  "startTime": {
+    "$date": "2001-01-12T12:18:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T13:46:59.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "SPL_2": {
+      "$numberLong": "5340"
+    },
+    "VIB_4": {
+      "$numberLong": "21360"
+    },
+    "EGT_1": {
+      "$numberLong": "21360"
+    },
+    "TAT": {
+      "$numberLong": "5340"
+    },
+    "PLA_2": {
+      "$numberLong": "21360"
+    },
+    "WD": {
+      "$numberLong": "21360"
+    },
+    "N1T": {
+      "$numberLong": "21360"
+    },
+    "EGT_2": {
+      "$numberLong": "21360"
+    },
+    "N1_2": {
+      "$numberLong": "21360"
+    },
+    "OIP_4": {
+      "$numberLong": "5340"
+    },
+    "TH": {
+      "$numberLong": "21360"
+    },
+    "AOA2": {
+      "$numberLong": "21360"
+    },
+    "CWPF": {
+      "$numberLong": "10680"
+    },
+    "FF_4": {
+      "$numberLong": "21360"
+    },
+    "FPAC": {
+      "$numberLong": "85440"
+    },
+    "OIT_2": {
+      "$numberLong": "5340"
+    },
+    "OIT_4": {
+      "$numberLong": "5340"
+    },
+    "N1C": {
+      "$numberLong": "21360"
+    },
+    "AIL_2": {
+      "$numberLong": "5340"
+    },
+    "PTRM": {
+      "$numberLong": "5340"
+    },
+    "N2_2": {
+      "$numberLong": "21360"
+    },
+    "AOAI": {
+      "$numberLong": "21360"
+    },
+    "WS": {
+      "$numberLong": "21360"
+    },
+    "IVV": {
+      "$numberLong": "85440"
+    },
+    "OIP_1": {
+      "$numberLong": "5340"
+    },
+    "GLS": {
+      "$numberLong": "5340"
+    },
+    "PLA_3": {
+      "$numberLong": "21360"
+    },
+    "LATP": {
+      "$numberLong": "5340"
+    },
+    "AOA1": {
+      "$numberLong": "21360"
+    },
+    "ALT": {
+      "$numberLong": "21360"
+    },
+    "FF_1": {
+      "$numberLong": "21360"
+    },
+    "FQTY_1": {
+      "$numberLong": "5340"
+    },
+    "PI": {
+      "$numberLong": "10680"
+    },
+    "GS": {
+      "$numberLong": "21360"
+    },
+    "ROLL": {
+      "$numberLong": "42720"
+    },
+    "DA": {
+      "$numberLong": "21360"
+    },
+    "AOAC": {
+      "$numberLong": "21360"
+    },
+    "OIP_2": {
+      "$numberLong": "5340"
+    },
+    "BAL2": {
+      "$numberLong": "21360"
+    },
+    "BPYR_1": {
+      "$numberLong": "5340"
+    },
+    "RUDP": {
+      "$numberLong": "10680"
+    },
+    "LONG": {
+      "$numberLong": "21360"
+    },
+    "MH": {
+      "$numberLong": "21360"
+    },
+    "CCPC": {
+      "$numberLong": "10680"
+    },
+    "OIT_3": {
+      "$numberLong": "5340"
+    },
+    "SAT": {
+      "$numberLong": "5340"
+    },
+    "TRK": {
+      "$numberLong": "21360"
+    },
+    "BAL1": {
+      "$numberLong": "21360"
+    },
+    "BLAC": {
+      "$numberLong": "85440"
+    },
+    "BPGR_1": {
+      "$numberLong": "5340"
+    },
+    "FQTY_2": {
+      "$numberLong": "5340"
+    },
+    "EGT_4": {
+      "$numberLong": "21360"
+    },
+    "LONP": {
+      "$numberLong": "5340"
+    },
+    "N2_3": {
+      "$numberLong": "21360"
+    },
+    "VRTG": {
+      "$numberLong": "42720"
+    },
+    "ELEV_1": {
+      "$numberLong": "5340"
+    },
+    "OIP_3": {
+      "$numberLong": "5340"
+    },
+    "FF_3": {
+      "$numberLong": "21360"
+    },
+    "RUDD": {
+      "$numberLong": "10680"
+    },
+    "FQTY_4": {
+      "$numberLong": "5340"
+    },
+    "CAS": {
+      "$numberLong": "21360"
+    },
+    "BPYR_2": {
+      "$numberLong": "5340"
+    },
+    "LATG": {
+      "$numberLong": "21360"
+    },
+    "CTAC": {
+      "$numberLong": "85440"
+    },
+    "LOC": {
+      "$numberLong": "5340"
+    },
+    "MACH": {
+      "$numberLong": "21360"
+    },
+    "PT": {
+      "$numberLong": "10680"
+    },
+    "PSA": {
+      "$numberLong": "10680"
+    },
+    "PLA_1": {
+      "$numberLong": "21360"
+    },
+    "VIB_3": {
+      "$numberLong": "21360"
+    },
+    "ABRK": {
+      "$numberLong": "5340"
+    },
+    "FQTY_3": {
+      "$numberLong": "5340"
+    },
+    "CWPC": {
+      "$numberLong": "10680"
+    },
+    "FF_2": {
+      "$numberLong": "21360"
+    },
+    "N2_4": {
+      "$numberLong": "21360"
+    },
+    "FLAP": {
+      "$numberLong": "5340"
+    },
+    "OIT_1": {
+      "$numberLong": "5340"
+    },
+    "N1_1": {
+      "$numberLong": "21360"
+    },
+    "N1_3": {
+      "$numberLong": "21360"
+    },
+    "N1_4": {
+      "$numberLong": "21360"
+    },
+    "ELEV_2": {
+      "$numberLong": "5340"
+    },
+    "N2_1": {
+      "$numberLong": "21360"
+    },
+    "EGT_3": {
+      "$numberLong": "21360"
+    },
+    "PLA_4": {
+      "$numberLong": "21360"
+    },
+    "AIL_1": {
+      "$numberLong": "5340"
+    },
+    "PS": {
+      "$numberLong": "10680"
+    },
+    "DWPT": {
+      "$numberLong": "5340"
+    },
+    "ALTR": {
+      "$numberLong": "21360"
+    },
+    "SPL_1": {
+      "$numberLong": "5340"
+    },
+    "TRKM": {
+      "$numberLong": "21360"
+    },
+    "VIB_1": {
+      "$numberLong": "21360"
+    },
+    "VIB_2": {
+      "$numberLong": "21360"
+    },
+    "CCPF": {
+      "$numberLong": "10680"
+    },
+    "RALT": {
+      "$numberLong": "42720"
+    },
+    "BPGR_2": {
+      "$numberLong": "5340"
+    },
+    "TAS": {
+      "$numberLong": "21360"
+    },
+    "PTCH": {
+      "$numberLong": "42720"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e4594d20af548eddbda4"
+  },
+  "startTime": {
+    "$date": "2001-01-12T13:41:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T15:06:15.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "VIB_4": {
+      "$numberLong": "20464"
+    },
+    "WD": {
+      "$numberLong": "20464"
+    },
+    "ALTR": {
+      "$numberLong": "20464"
+    },
+    "OIP_4": {
+      "$numberLong": "5116"
+    },
+    "AOA2": {
+      "$numberLong": "20464"
+    },
+    "PLA_2": {
+      "$numberLong": "20464"
+    },
+    "TH": {
+      "$numberLong": "20464"
+    },
+    "TAT": {
+      "$numberLong": "5116"
+    },
+    "N1T": {
+      "$numberLong": "20464"
+    },
+    "EGT_2": {
+      "$numberLong": "20464"
+    },
+    "N1_2": {
+      "$numberLong": "20464"
+    },
+    "OIT_4": {
+      "$numberLong": "5116"
+    },
+    "VIB_2": {
+      "$numberLong": "20464"
+    },
+    "N1C": {
+      "$numberLong": "20464"
+    },
+    "OIT_2": {
+      "$numberLong": "5116"
+    },
+    "FF_4": {
+      "$numberLong": "20464"
+    },
+    "FPAC": {
+      "$numberLong": "81856"
+    },
+    "CWPF": {
+      "$numberLong": "10232"
+    },
+    "OIP_1": {
+      "$numberLong": "5116"
+    },
+    "AIL_2": {
+      "$numberLong": "5116"
+    },
+    "AOA1": {
+      "$numberLong": "20464"
+    },
+    "GLS": {
+      "$numberLong": "5116"
+    },
+    "AOAI": {
+      "$numberLong": "20464"
+    },
+    "PTRM": {
+      "$numberLong": "5116"
+    },
+    "N2_2": {
+      "$numberLong": "20464"
+    },
+    "WS": {
+      "$numberLong": "20464"
+    },
+    "IVV": {
+      "$numberLong": "81856"
+    },
+    "ALT": {
+      "$numberLong": "20464"
+    },
+    "BPYR_1": {
+      "$numberLong": "5116"
+    },
+    "OIP_2": {
+      "$numberLong": "5116"
+    },
+    "LONG": {
+      "$numberLong": "20464"
+    },
+    "DA": {
+      "$numberLong": "20464"
+    },
+    "RUDP": {
+      "$numberLong": "10232"
+    },
+    "ROLL": {
+      "$numberLong": "40928"
+    },
+    "FF_1": {
+      "$numberLong": "20464"
+    },
+    "FQTY_1": {
+      "$numberLong": "5116"
+    },
+    "PI": {
+      "$numberLong": "10232"
+    },
+    "GS": {
+      "$numberLong": "20464"
+    },
+    "PLA_3": {
+      "$numberLong": "20464"
+    },
+    "AOAC": {
+      "$numberLong": "20464"
+    },
+    "EGT_4": {
+      "$numberLong": "20464"
+    },
+    "LATP": {
+      "$numberLong": "5116"
+    },
+    "MH": {
+      "$numberLong": "20464"
+    },
+    "LONP": {
+      "$numberLong": "5116"
+    },
+    "N2_3": {
+      "$numberLong": "20464"
+    },
+    "TRK": {
+      "$numberLong": "20464"
+    },
+    "VRTG": {
+      "$numberLong": "40928"
+    },
+    "FQTY_2": {
+      "$numberLong": "5116"
+    },
+    "BAL1": {
+      "$numberLong": "20464"
+    },
+    "BLAC": {
+      "$numberLong": "81856"
+    },
+    "BPGR_1": {
+      "$numberLong": "5116"
+    },
+    "BAL2": {
+      "$numberLong": "20464"
+    },
+    "CCPC": {
+      "$numberLong": "10232"
+    },
+    "OIT_3": {
+      "$numberLong": "5116"
+    },
+    "PT": {
+      "$numberLong": "10232"
+    },
+    "SAT": {
+      "$numberLong": "5116"
+    },
+    "PSA": {
+      "$numberLong": "10232"
+    },
+    "VIB_3": {
+      "$numberLong": "20464"
+    },
+    "BPYR_2": {
+      "$numberLong": "5116"
+    },
+    "CAS": {
+      "$numberLong": "20464"
+    },
+    "RUDD": {
+      "$numberLong": "10232"
+    },
+    "CTAC": {
+      "$numberLong": "81856"
+    },
+    "FF_3": {
+      "$numberLong": "20464"
+    },
+    "LOC": {
+      "$numberLong": "5116"
+    },
+    "MACH": {
+      "$numberLong": "20464"
+    },
+    "ELEV_1": {
+      "$numberLong": "5116"
+    },
+    "FQTY_4": {
+      "$numberLong": "5116"
+    },
+    "LATG": {
+      "$numberLong": "20464"
+    },
+    "AIL_1": {
+      "$numberLong": "5116"
+    },
+    "ABRK": {
+      "$numberLong": "5116"
+    },
+    "N2_1": {
+      "$numberLong": "20464"
+    },
+    "ELEV_2": {
+      "$numberLong": "5116"
+    },
+    "OIP_3": {
+      "$numberLong": "5116"
+    },
+    "OIT_1": {
+      "$numberLong": "5116"
+    },
+    "SPL_1": {
+      "$numberLong": "5116"
+    },
+    "FQTY_3": {
+      "$numberLong": "5116"
+    },
+    "FLAP": {
+      "$numberLong": "5116"
+    },
+    "FF_2": {
+      "$numberLong": "20464"
+    },
+    "BPGR_2": {
+      "$numberLong": "5116"
+    },
+    "N2_4": {
+      "$numberLong": "20464"
+    },
+    "PLA_1": {
+      "$numberLong": "20464"
+    },
+    "CWPC": {
+      "$numberLong": "10232"
+    },
+    "N1_1": {
+      "$numberLong": "20464"
+    },
+    "TAS": {
+      "$numberLong": "20464"
+    },
+    "SPL_2": {
+      "$numberLong": "5116"
+    },
+    "N1_3": {
+      "$numberLong": "20464"
+    },
+    "PTCH": {
+      "$numberLong": "40928"
+    },
+    "TRKM": {
+      "$numberLong": "20464"
+    },
+    "N1_4": {
+      "$numberLong": "20464"
+    },
+    "CCPF": {
+      "$numberLong": "10232"
+    },
+    "RALT": {
+      "$numberLong": "40928"
+    },
+    "DWPT": {
+      "$numberLong": "5116"
+    },
+    "EGT_1": {
+      "$numberLong": "20464"
+    },
+    "VIB_1": {
+      "$numberLong": "20464"
+    },
+    "PLA_4": {
+      "$numberLong": "20464"
+    },
+    "EGT_3": {
+      "$numberLong": "20464"
+    },
+    "PS": {
+      "$numberLong": "10232"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e4944d20af548eddde3b"
+  },
+  "startTime": {
+    "$date": "2001-01-12T14:44:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T15:46:19.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PT": {
+      "$numberLong": "7480"
+    },
+    "ALT": {
+      "$numberLong": "14960"
+    },
+    "PSA": {
+      "$numberLong": "7480"
+    },
+    "VIB_3": {
+      "$numberLong": "14960"
+    },
+    "BPYR_2": {
+      "$numberLong": "3740"
+    },
+    "CAS": {
+      "$numberLong": "14960"
+    },
+    "RUDD": {
+      "$numberLong": "7480"
+    },
+    "CTAC": {
+      "$numberLong": "59840"
+    },
+    "FF_3": {
+      "$numberLong": "14960"
+    },
+    "LOC": {
+      "$numberLong": "3740"
+    },
+    "ELEV_1": {
+      "$numberLong": "3740"
+    },
+    "FQTY_4": {
+      "$numberLong": "3740"
+    },
+    "EGT_4": {
+      "$numberLong": "14960"
+    },
+    "LATG": {
+      "$numberLong": "14960"
+    },
+    "ABRK": {
+      "$numberLong": "3740"
+    },
+    "N2_3": {
+      "$numberLong": "14960"
+    },
+    "LONP": {
+      "$numberLong": "3740"
+    },
+    "MACH": {
+      "$numberLong": "14960"
+    },
+    "OIP_3": {
+      "$numberLong": "3740"
+    },
+    "FQTY_2": {
+      "$numberLong": "3740"
+    },
+    "BAL1": {
+      "$numberLong": "14960"
+    },
+    "BLAC": {
+      "$numberLong": "59840"
+    },
+    "BPGR_1": {
+      "$numberLong": "3740"
+    },
+    "VRTG": {
+      "$numberLong": "29920"
+    },
+    "BAL2": {
+      "$numberLong": "14960"
+    },
+    "CCPC": {
+      "$numberLong": "7480"
+    },
+    "OIT_3": {
+      "$numberLong": "3740"
+    },
+    "SAT": {
+      "$numberLong": "3740"
+    },
+    "TAS": {
+      "$numberLong": "14960"
+    },
+    "SPL_2": {
+      "$numberLong": "3740"
+    },
+    "PTCH": {
+      "$numberLong": "29920"
+    },
+    "VIB_4": {
+      "$numberLong": "14960"
+    },
+    "RALT": {
+      "$numberLong": "29920"
+    },
+    "CCPF": {
+      "$numberLong": "7480"
+    },
+    "WD": {
+      "$numberLong": "14960"
+    },
+    "DWPT": {
+      "$numberLong": "3740"
+    },
+    "EGT_1": {
+      "$numberLong": "14960"
+    },
+    "PLA_4": {
+      "$numberLong": "14960"
+    },
+    "EGT_3": {
+      "$numberLong": "14960"
+    },
+    "PS": {
+      "$numberLong": "7480"
+    },
+    "VIB_2": {
+      "$numberLong": "14960"
+    },
+    "AIL_1": {
+      "$numberLong": "3740"
+    },
+    "ELEV_2": {
+      "$numberLong": "3740"
+    },
+    "N2_1": {
+      "$numberLong": "14960"
+    },
+    "ALTR": {
+      "$numberLong": "14960"
+    },
+    "OIT_1": {
+      "$numberLong": "3740"
+    },
+    "SPL_1": {
+      "$numberLong": "3740"
+    },
+    "TRKM": {
+      "$numberLong": "14960"
+    },
+    "FQTY_3": {
+      "$numberLong": "3740"
+    },
+    "FLAP": {
+      "$numberLong": "3740"
+    },
+    "FF_2": {
+      "$numberLong": "14960"
+    },
+    "BPGR_2": {
+      "$numberLong": "3740"
+    },
+    "N2_4": {
+      "$numberLong": "14960"
+    },
+    "N1_1": {
+      "$numberLong": "14960"
+    },
+    "PLA_1": {
+      "$numberLong": "14960"
+    },
+    "CWPC": {
+      "$numberLong": "7480"
+    },
+    "OIT_4": {
+      "$numberLong": "3740"
+    },
+    "N1_3": {
+      "$numberLong": "14960"
+    },
+    "N1_4": {
+      "$numberLong": "14960"
+    },
+    "VIB_1": {
+      "$numberLong": "14960"
+    },
+    "N1C": {
+      "$numberLong": "14960"
+    },
+    "OIT_2": {
+      "$numberLong": "3740"
+    },
+    "FF_4": {
+      "$numberLong": "14960"
+    },
+    "FPAC": {
+      "$numberLong": "59840"
+    },
+    "CWPF": {
+      "$numberLong": "7480"
+    },
+    "AIL_2": {
+      "$numberLong": "3740"
+    },
+    "OIP_4": {
+      "$numberLong": "3740"
+    },
+    "AOA2": {
+      "$numberLong": "14960"
+    },
+    "PLA_2": {
+      "$numberLong": "14960"
+    },
+    "TH": {
+      "$numberLong": "14960"
+    },
+    "TAT": {
+      "$numberLong": "3740"
+    },
+    "N1T": {
+      "$numberLong": "14960"
+    },
+    "N1_2": {
+      "$numberLong": "14960"
+    },
+    "BPYR_1": {
+      "$numberLong": "3740"
+    },
+    "EGT_2": {
+      "$numberLong": "14960"
+    },
+    "LONG": {
+      "$numberLong": "14960"
+    },
+    "DA": {
+      "$numberLong": "14960"
+    },
+    "OIP_2": {
+      "$numberLong": "3740"
+    },
+    "ROLL": {
+      "$numberLong": "29920"
+    },
+    "RUDP": {
+      "$numberLong": "7480"
+    },
+    "FF_1": {
+      "$numberLong": "14960"
+    },
+    "FQTY_1": {
+      "$numberLong": "3740"
+    },
+    "PI": {
+      "$numberLong": "7480"
+    },
+    "GS": {
+      "$numberLong": "14960"
+    },
+    "LATP": {
+      "$numberLong": "3740"
+    },
+    "AOAC": {
+      "$numberLong": "14960"
+    },
+    "MH": {
+      "$numberLong": "14960"
+    },
+    "PLA_3": {
+      "$numberLong": "14960"
+    },
+    "OIP_1": {
+      "$numberLong": "3740"
+    },
+    "GLS": {
+      "$numberLong": "3740"
+    },
+    "TRK": {
+      "$numberLong": "14960"
+    },
+    "AOA1": {
+      "$numberLong": "14960"
+    },
+    "AOAI": {
+      "$numberLong": "14960"
+    },
+    "PTRM": {
+      "$numberLong": "3740"
+    },
+    "N2_2": {
+      "$numberLong": "14960"
+    },
+    "WS": {
+      "$numberLong": "14960"
+    },
+    "IVV": {
+      "$numberLong": "59840"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e4bd4d20af548eddf61b"
+  },
+  "startTime": {
+    "$date": "2001-01-12T16:11:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-12T16:35:27.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PSA": {
+      "$numberLong": "2936"
+    },
+    "VIB_3": {
+      "$numberLong": "5872"
+    },
+    "PT": {
+      "$numberLong": "2936"
+    },
+    "BPYR_2": {
+      "$numberLong": "1468"
+    },
+    "CTAC": {
+      "$numberLong": "23488"
+    },
+    "CAS": {
+      "$numberLong": "5872"
+    },
+    "ELEV_1": {
+      "$numberLong": "1468"
+    },
+    "OIP_3": {
+      "$numberLong": "1468"
+    },
+    "RUDD": {
+      "$numberLong": "2936"
+    },
+    "FF_3": {
+      "$numberLong": "5872"
+    },
+    "FQTY_4": {
+      "$numberLong": "1468"
+    },
+    "LATG": {
+      "$numberLong": "5872"
+    },
+    "N2_3": {
+      "$numberLong": "5872"
+    },
+    "ABRK": {
+      "$numberLong": "1468"
+    },
+    "EGT_4": {
+      "$numberLong": "5872"
+    },
+    "FQTY_2": {
+      "$numberLong": "1468"
+    },
+    "LOC": {
+      "$numberLong": "1468"
+    },
+    "LONP": {
+      "$numberLong": "1468"
+    },
+    "MACH": {
+      "$numberLong": "5872"
+    },
+    "BLAC": {
+      "$numberLong": "23488"
+    },
+    "BAL1": {
+      "$numberLong": "5872"
+    },
+    "BPGR_1": {
+      "$numberLong": "1468"
+    },
+    "SAT": {
+      "$numberLong": "1468"
+    },
+    "CCPC": {
+      "$numberLong": "2936"
+    },
+    "OIT_3": {
+      "$numberLong": "1468"
+    },
+    "VRTG": {
+      "$numberLong": "11744"
+    },
+    "BAL2": {
+      "$numberLong": "5872"
+    },
+    "PTCH": {
+      "$numberLong": "11744"
+    },
+    "SPL_2": {
+      "$numberLong": "1468"
+    },
+    "TAS": {
+      "$numberLong": "5872"
+    },
+    "CCPF": {
+      "$numberLong": "2936"
+    },
+    "RALT": {
+      "$numberLong": "11744"
+    },
+    "VIB_4": {
+      "$numberLong": "5872"
+    },
+    "WD": {
+      "$numberLong": "5872"
+    },
+    "DWPT": {
+      "$numberLong": "1468"
+    },
+    "EGT_1": {
+      "$numberLong": "5872"
+    },
+    "EGT_3": {
+      "$numberLong": "5872"
+    },
+    "ELEV_2": {
+      "$numberLong": "1468"
+    },
+    "N2_1": {
+      "$numberLong": "5872"
+    },
+    "PLA_4": {
+      "$numberLong": "5872"
+    },
+    "PS": {
+      "$numberLong": "2936"
+    },
+    "AIL_1": {
+      "$numberLong": "1468"
+    },
+    "ALTR": {
+      "$numberLong": "5872"
+    },
+    "SPL_1": {
+      "$numberLong": "1468"
+    },
+    "OIT_1": {
+      "$numberLong": "1468"
+    },
+    "N2_4": {
+      "$numberLong": "5872"
+    },
+    "FF_2": {
+      "$numberLong": "5872"
+    },
+    "FLAP": {
+      "$numberLong": "1468"
+    },
+    "FQTY_3": {
+      "$numberLong": "1468"
+    },
+    "BPGR_2": {
+      "$numberLong": "1468"
+    },
+    "TRKM": {
+      "$numberLong": "5872"
+    },
+    "CWPC": {
+      "$numberLong": "2936"
+    },
+    "PLA_1": {
+      "$numberLong": "5872"
+    },
+    "N1_1": {
+      "$numberLong": "5872"
+    },
+    "N1_3": {
+      "$numberLong": "5872"
+    },
+    "N1_4": {
+      "$numberLong": "5872"
+    },
+    "OIT_4": {
+      "$numberLong": "1468"
+    },
+    "OIT_2": {
+      "$numberLong": "1468"
+    },
+    "N1C": {
+      "$numberLong": "5872"
+    },
+    "VIB_1": {
+      "$numberLong": "5872"
+    },
+    "VIB_2": {
+      "$numberLong": "5872"
+    },
+    "FF_4": {
+      "$numberLong": "5872"
+    },
+    "CWPF": {
+      "$numberLong": "2936"
+    },
+    "FPAC": {
+      "$numberLong": "23488"
+    },
+    "AIL_2": {
+      "$numberLong": "1468"
+    },
+    "OIP_4": {
+      "$numberLong": "1468"
+    },
+    "TH": {
+      "$numberLong": "5872"
+    },
+    "PLA_2": {
+      "$numberLong": "5872"
+    },
+    "TAT": {
+      "$numberLong": "1468"
+    },
+    "N1T": {
+      "$numberLong": "5872"
+    },
+    "N1_2": {
+      "$numberLong": "5872"
+    },
+    "AOA2": {
+      "$numberLong": "5872"
+    },
+    "BPYR_1": {
+      "$numberLong": "1468"
+    },
+    "EGT_2": {
+      "$numberLong": "5872"
+    },
+    "OIP_2": {
+      "$numberLong": "1468"
+    },
+    "ROLL": {
+      "$numberLong": "11744"
+    },
+    "DA": {
+      "$numberLong": "5872"
+    },
+    "LONG": {
+      "$numberLong": "5872"
+    },
+    "FF_1": {
+      "$numberLong": "5872"
+    },
+    "FQTY_1": {
+      "$numberLong": "1468"
+    },
+    "PI": {
+      "$numberLong": "2936"
+    },
+    "GS": {
+      "$numberLong": "5872"
+    },
+    "PLA_3": {
+      "$numberLong": "5872"
+    },
+    "LATP": {
+      "$numberLong": "1468"
+    },
+    "AOAC": {
+      "$numberLong": "5872"
+    },
+    "RUDP": {
+      "$numberLong": "2936"
+    },
+    "OIP_1": {
+      "$numberLong": "1468"
+    },
+    "GLS": {
+      "$numberLong": "1468"
+    },
+    "MH": {
+      "$numberLong": "5872"
+    },
+    "TRK": {
+      "$numberLong": "5872"
+    },
+    "AOA1": {
+      "$numberLong": "5872"
+    },
+    "ALT": {
+      "$numberLong": "5872"
+    },
+    "AOAI": {
+      "$numberLong": "5872"
+    },
+    "N2_2": {
+      "$numberLong": "5872"
+    },
+    "PTRM": {
+      "$numberLong": "1468"
+    },
+    "WS": {
+      "$numberLong": "5872"
+    },
+    "IVV": {
+      "$numberLong": "23488"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e4ce4d20af548eddff95"
+  },
+  "startTime": {
+    "$date": "2001-01-13T00:02:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T01:20:51.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PTRM": {
+      "$numberLong": "4732"
+    },
+    "ALT": {
+      "$numberLong": "18928"
+    },
+    "ABRK": {
+      "$numberLong": "4732"
+    },
+    "PSA": {
+      "$numberLong": "9464"
+    },
+    "IVV": {
+      "$numberLong": "75712"
+    },
+    "BPYR_2": {
+      "$numberLong": "4732"
+    },
+    "PT": {
+      "$numberLong": "9464"
+    },
+    "VIB_3": {
+      "$numberLong": "18928"
+    },
+    "ELEV_1": {
+      "$numberLong": "4732"
+    },
+    "FF_3": {
+      "$numberLong": "18928"
+    },
+    "FQTY_4": {
+      "$numberLong": "4732"
+    },
+    "LATG": {
+      "$numberLong": "18928"
+    },
+    "CTAC": {
+      "$numberLong": "75712"
+    },
+    "CAS": {
+      "$numberLong": "18928"
+    },
+    "OIP_3": {
+      "$numberLong": "4732"
+    },
+    "RUDD": {
+      "$numberLong": "9464"
+    },
+    "FQTY_2": {
+      "$numberLong": "4732"
+    },
+    "LOC": {
+      "$numberLong": "4732"
+    },
+    "LONP": {
+      "$numberLong": "4732"
+    },
+    "MACH": {
+      "$numberLong": "18928"
+    },
+    "N2_3": {
+      "$numberLong": "18928"
+    },
+    "VRTG": {
+      "$numberLong": "37856"
+    },
+    "EGT_4": {
+      "$numberLong": "18928"
+    },
+    "OIT_3": {
+      "$numberLong": "4732"
+    },
+    "SAT": {
+      "$numberLong": "4732"
+    },
+    "BLAC": {
+      "$numberLong": "75712"
+    },
+    "BAL2": {
+      "$numberLong": "18928"
+    },
+    "BPGR_1": {
+      "$numberLong": "4732"
+    },
+    "CCPC": {
+      "$numberLong": "9464"
+    },
+    "RALT": {
+      "$numberLong": "37856"
+    },
+    "WD": {
+      "$numberLong": "18928"
+    },
+    "VIB_4": {
+      "$numberLong": "18928"
+    },
+    "SPL_2": {
+      "$numberLong": "4732"
+    },
+    "PTCH": {
+      "$numberLong": "37856"
+    },
+    "CCPF": {
+      "$numberLong": "9464"
+    },
+    "TAS": {
+      "$numberLong": "18928"
+    },
+    "BAL1": {
+      "$numberLong": "18928"
+    },
+    "PLA_4": {
+      "$numberLong": "18928"
+    },
+    "EGT_3": {
+      "$numberLong": "18928"
+    },
+    "PS": {
+      "$numberLong": "9464"
+    },
+    "DWPT": {
+      "$numberLong": "4732"
+    },
+    "EGT_1": {
+      "$numberLong": "18928"
+    },
+    "OIT_1": {
+      "$numberLong": "4732"
+    },
+    "N2_1": {
+      "$numberLong": "18928"
+    },
+    "ALTR": {
+      "$numberLong": "18928"
+    },
+    "ELEV_2": {
+      "$numberLong": "4732"
+    },
+    "SPL_1": {
+      "$numberLong": "4732"
+    },
+    "TRKM": {
+      "$numberLong": "18928"
+    },
+    "CWPC": {
+      "$numberLong": "9464"
+    },
+    "N1_1": {
+      "$numberLong": "18928"
+    },
+    "PLA_1": {
+      "$numberLong": "18928"
+    },
+    "FLAP": {
+      "$numberLong": "4732"
+    },
+    "BPGR_2": {
+      "$numberLong": "4732"
+    },
+    "FF_2": {
+      "$numberLong": "18928"
+    },
+    "N1_3": {
+      "$numberLong": "18928"
+    },
+    "FQTY_3": {
+      "$numberLong": "4732"
+    },
+    "N1_4": {
+      "$numberLong": "18928"
+    },
+    "AIL_2": {
+      "$numberLong": "4732"
+    },
+    "N2_4": {
+      "$numberLong": "18928"
+    },
+    "AIL_1": {
+      "$numberLong": "4732"
+    },
+    "OIT_2": {
+      "$numberLong": "4732"
+    },
+    "OIT_4": {
+      "$numberLong": "4732"
+    },
+    "N1C": {
+      "$numberLong": "18928"
+    },
+    "CWPF": {
+      "$numberLong": "9464"
+    },
+    "VIB_1": {
+      "$numberLong": "18928"
+    },
+    "VIB_2": {
+      "$numberLong": "18928"
+    },
+    "FF_4": {
+      "$numberLong": "18928"
+    },
+    "FPAC": {
+      "$numberLong": "75712"
+    },
+    "OIP_4": {
+      "$numberLong": "4732"
+    },
+    "AOA2": {
+      "$numberLong": "18928"
+    },
+    "TAT": {
+      "$numberLong": "4732"
+    },
+    "TH": {
+      "$numberLong": "18928"
+    },
+    "N1T": {
+      "$numberLong": "18928"
+    },
+    "N1_2": {
+      "$numberLong": "18928"
+    },
+    "EGT_2": {
+      "$numberLong": "18928"
+    },
+    "PLA_2": {
+      "$numberLong": "18928"
+    },
+    "LONG": {
+      "$numberLong": "18928"
+    },
+    "ROLL": {
+      "$numberLong": "37856"
+    },
+    "OIP_2": {
+      "$numberLong": "4732"
+    },
+    "BPYR_1": {
+      "$numberLong": "4732"
+    },
+    "RUDP": {
+      "$numberLong": "9464"
+    },
+    "PLA_3": {
+      "$numberLong": "18928"
+    },
+    "DA": {
+      "$numberLong": "18928"
+    },
+    "LATP": {
+      "$numberLong": "4732"
+    },
+    "FF_1": {
+      "$numberLong": "18928"
+    },
+    "FQTY_1": {
+      "$numberLong": "4732"
+    },
+    "PI": {
+      "$numberLong": "9464"
+    },
+    "AOAC": {
+      "$numberLong": "18928"
+    },
+    "TRK": {
+      "$numberLong": "18928"
+    },
+    "GS": {
+      "$numberLong": "18928"
+    },
+    "MH": {
+      "$numberLong": "18928"
+    },
+    "GLS": {
+      "$numberLong": "4732"
+    },
+    "OIP_1": {
+      "$numberLong": "4732"
+    },
+    "AOA1": {
+      "$numberLong": "18928"
+    },
+    "AOAI": {
+      "$numberLong": "18928"
+    },
+    "N2_2": {
+      "$numberLong": "18928"
+    },
+    "WS": {
+      "$numberLong": "18928"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5044d20af548ede1d85"
+  },
+  "startTime": {
+    "$date": "2001-01-13T04:51:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T06:07:47.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "BAL1": {
+      "$numberLong": "18432"
+    },
+    "CCPC": {
+      "$numberLong": "9216"
+    },
+    "OIP_2": {
+      "$numberLong": "4608"
+    },
+    "ROLL": {
+      "$numberLong": "36864"
+    },
+    "RUDP": {
+      "$numberLong": "9216"
+    },
+    "TRK": {
+      "$numberLong": "18432"
+    },
+    "SAT": {
+      "$numberLong": "4608"
+    },
+    "OIT_3": {
+      "$numberLong": "4608"
+    },
+    "BAL2": {
+      "$numberLong": "18432"
+    },
+    "EGT_4": {
+      "$numberLong": "18432"
+    },
+    "VRTG": {
+      "$numberLong": "36864"
+    },
+    "N2_3": {
+      "$numberLong": "18432"
+    },
+    "BLAC": {
+      "$numberLong": "73728"
+    },
+    "FQTY_2": {
+      "$numberLong": "4608"
+    },
+    "LONP": {
+      "$numberLong": "4608"
+    },
+    "RUDD": {
+      "$numberLong": "9216"
+    },
+    "LOC": {
+      "$numberLong": "4608"
+    },
+    "CAS": {
+      "$numberLong": "18432"
+    },
+    "CTAC": {
+      "$numberLong": "73728"
+    },
+    "FF_3": {
+      "$numberLong": "18432"
+    },
+    "OIP_3": {
+      "$numberLong": "4608"
+    },
+    "ELEV_1": {
+      "$numberLong": "4608"
+    },
+    "BPGR_1": {
+      "$numberLong": "4608"
+    },
+    "FQTY_4": {
+      "$numberLong": "4608"
+    },
+    "LATG": {
+      "$numberLong": "18432"
+    },
+    "MACH": {
+      "$numberLong": "18432"
+    },
+    "BPYR_2": {
+      "$numberLong": "4608"
+    },
+    "PSA": {
+      "$numberLong": "9216"
+    },
+    "PT": {
+      "$numberLong": "9216"
+    },
+    "VIB_3": {
+      "$numberLong": "18432"
+    },
+    "FQTY_3": {
+      "$numberLong": "4608"
+    },
+    "FF_2": {
+      "$numberLong": "18432"
+    },
+    "ABRK": {
+      "$numberLong": "4608"
+    },
+    "N2_4": {
+      "$numberLong": "18432"
+    },
+    "FLAP": {
+      "$numberLong": "4608"
+    },
+    "N1_3": {
+      "$numberLong": "18432"
+    },
+    "CWPC": {
+      "$numberLong": "9216"
+    },
+    "N1_1": {
+      "$numberLong": "18432"
+    },
+    "N1_4": {
+      "$numberLong": "18432"
+    },
+    "ELEV_2": {
+      "$numberLong": "4608"
+    },
+    "BPGR_2": {
+      "$numberLong": "4608"
+    },
+    "N2_1": {
+      "$numberLong": "18432"
+    },
+    "OIT_1": {
+      "$numberLong": "4608"
+    },
+    "PLA_1": {
+      "$numberLong": "18432"
+    },
+    "SPL_1": {
+      "$numberLong": "4608"
+    },
+    "DWPT": {
+      "$numberLong": "4608"
+    },
+    "ALTR": {
+      "$numberLong": "18432"
+    },
+    "AIL_1": {
+      "$numberLong": "4608"
+    },
+    "TRKM": {
+      "$numberLong": "18432"
+    },
+    "EGT_3": {
+      "$numberLong": "18432"
+    },
+    "PLA_4": {
+      "$numberLong": "18432"
+    },
+    "PS": {
+      "$numberLong": "9216"
+    },
+    "VIB_1": {
+      "$numberLong": "18432"
+    },
+    "TAS": {
+      "$numberLong": "18432"
+    },
+    "VIB_2": {
+      "$numberLong": "18432"
+    },
+    "EGT_1": {
+      "$numberLong": "18432"
+    },
+    "PTCH": {
+      "$numberLong": "36864"
+    },
+    "SPL_2": {
+      "$numberLong": "4608"
+    },
+    "VIB_4": {
+      "$numberLong": "18432"
+    },
+    "RALT": {
+      "$numberLong": "36864"
+    },
+    "PLA_2": {
+      "$numberLong": "18432"
+    },
+    "WD": {
+      "$numberLong": "18432"
+    },
+    "CCPF": {
+      "$numberLong": "9216"
+    },
+    "TH": {
+      "$numberLong": "18432"
+    },
+    "N1T": {
+      "$numberLong": "18432"
+    },
+    "EGT_2": {
+      "$numberLong": "18432"
+    },
+    "N1_2": {
+      "$numberLong": "18432"
+    },
+    "TAT": {
+      "$numberLong": "4608"
+    },
+    "OIP_4": {
+      "$numberLong": "4608"
+    },
+    "FF_4": {
+      "$numberLong": "18432"
+    },
+    "FPAC": {
+      "$numberLong": "73728"
+    },
+    "AOA2": {
+      "$numberLong": "18432"
+    },
+    "CWPF": {
+      "$numberLong": "9216"
+    },
+    "OIT_4": {
+      "$numberLong": "4608"
+    },
+    "OIT_2": {
+      "$numberLong": "4608"
+    },
+    "N1C": {
+      "$numberLong": "18432"
+    },
+    "IVV": {
+      "$numberLong": "73728"
+    },
+    "PTRM": {
+      "$numberLong": "4608"
+    },
+    "N2_2": {
+      "$numberLong": "18432"
+    },
+    "AIL_2": {
+      "$numberLong": "4608"
+    },
+    "WS": {
+      "$numberLong": "18432"
+    },
+    "OIP_1": {
+      "$numberLong": "4608"
+    },
+    "AOAI": {
+      "$numberLong": "18432"
+    },
+    "GLS": {
+      "$numberLong": "4608"
+    },
+    "MH": {
+      "$numberLong": "18432"
+    },
+    "FF_1": {
+      "$numberLong": "18432"
+    },
+    "PI": {
+      "$numberLong": "9216"
+    },
+    "AOA1": {
+      "$numberLong": "18432"
+    },
+    "FQTY_1": {
+      "$numberLong": "4608"
+    },
+    "ALT": {
+      "$numberLong": "18432"
+    },
+    "GS": {
+      "$numberLong": "18432"
+    },
+    "LATP": {
+      "$numberLong": "4608"
+    },
+    "PLA_3": {
+      "$numberLong": "18432"
+    },
+    "BPYR_1": {
+      "$numberLong": "4608"
+    },
+    "DA": {
+      "$numberLong": "18432"
+    },
+    "LONG": {
+      "$numberLong": "18432"
+    },
+    "AOAC": {
+      "$numberLong": "18432"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5384d20af548ede3ab3"
+  },
+  "startTime": {
+    "$date": "2001-01-13T07:56:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T08:58:27.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "FF_4": {
+      "$numberLong": "14992"
+    },
+    "FPAC": {
+      "$numberLong": "59968"
+    },
+    "AIL_1": {
+      "$numberLong": "3748"
+    },
+    "TRKM": {
+      "$numberLong": "14992"
+    },
+    "VIB_1": {
+      "$numberLong": "14992"
+    },
+    "VIB_2": {
+      "$numberLong": "14992"
+    },
+    "WD": {
+      "$numberLong": "14992"
+    },
+    "CWPF": {
+      "$numberLong": "7496"
+    },
+    "OIT_4": {
+      "$numberLong": "3748"
+    },
+    "OIT_2": {
+      "$numberLong": "3748"
+    },
+    "N1C": {
+      "$numberLong": "14992"
+    },
+    "PLA_2": {
+      "$numberLong": "14992"
+    },
+    "EGT_2": {
+      "$numberLong": "14992"
+    },
+    "TH": {
+      "$numberLong": "14992"
+    },
+    "AIL_2": {
+      "$numberLong": "3748"
+    },
+    "N1T": {
+      "$numberLong": "14992"
+    },
+    "N1_2": {
+      "$numberLong": "14992"
+    },
+    "TAT": {
+      "$numberLong": "3748"
+    },
+    "OIP_4": {
+      "$numberLong": "3748"
+    },
+    "FF_1": {
+      "$numberLong": "14992"
+    },
+    "FQTY_1": {
+      "$numberLong": "3748"
+    },
+    "PI": {
+      "$numberLong": "7496"
+    },
+    "GS": {
+      "$numberLong": "14992"
+    },
+    "AOA2": {
+      "$numberLong": "14992"
+    },
+    "LATP": {
+      "$numberLong": "3748"
+    },
+    "MH": {
+      "$numberLong": "14992"
+    },
+    "PLA_3": {
+      "$numberLong": "14992"
+    },
+    "TRK": {
+      "$numberLong": "14992"
+    },
+    "BPYR_1": {
+      "$numberLong": "3748"
+    },
+    "DA": {
+      "$numberLong": "14992"
+    },
+    "LONG": {
+      "$numberLong": "14992"
+    },
+    "AOAC": {
+      "$numberLong": "14992"
+    },
+    "OIP_2": {
+      "$numberLong": "3748"
+    },
+    "IVV": {
+      "$numberLong": "59968"
+    },
+    "PTRM": {
+      "$numberLong": "3748"
+    },
+    "ROLL": {
+      "$numberLong": "29984"
+    },
+    "N2_2": {
+      "$numberLong": "14992"
+    },
+    "RUDP": {
+      "$numberLong": "7496"
+    },
+    "WS": {
+      "$numberLong": "14992"
+    },
+    "OIP_1": {
+      "$numberLong": "3748"
+    },
+    "AOAI": {
+      "$numberLong": "14992"
+    },
+    "GLS": {
+      "$numberLong": "3748"
+    },
+    "RUDD": {
+      "$numberLong": "7496"
+    },
+    "CAS": {
+      "$numberLong": "14992"
+    },
+    "CTAC": {
+      "$numberLong": "59968"
+    },
+    "AOA1": {
+      "$numberLong": "14992"
+    },
+    "ELEV_1": {
+      "$numberLong": "3748"
+    },
+    "ALT": {
+      "$numberLong": "14992"
+    },
+    "OIP_3": {
+      "$numberLong": "3748"
+    },
+    "FF_3": {
+      "$numberLong": "14992"
+    },
+    "FQTY_4": {
+      "$numberLong": "3748"
+    },
+    "LATG": {
+      "$numberLong": "14992"
+    },
+    "LOC": {
+      "$numberLong": "3748"
+    },
+    "BPYR_2": {
+      "$numberLong": "3748"
+    },
+    "MACH": {
+      "$numberLong": "14992"
+    },
+    "PSA": {
+      "$numberLong": "7496"
+    },
+    "BAL1": {
+      "$numberLong": "14992"
+    },
+    "CCPC": {
+      "$numberLong": "7496"
+    },
+    "PT": {
+      "$numberLong": "7496"
+    },
+    "ABRK": {
+      "$numberLong": "3748"
+    },
+    "VIB_3": {
+      "$numberLong": "14992"
+    },
+    "SAT": {
+      "$numberLong": "3748"
+    },
+    "OIT_3": {
+      "$numberLong": "3748"
+    },
+    "BAL2": {
+      "$numberLong": "14992"
+    },
+    "EGT_4": {
+      "$numberLong": "14992"
+    },
+    "VRTG": {
+      "$numberLong": "29984"
+    },
+    "N2_3": {
+      "$numberLong": "14992"
+    },
+    "BLAC": {
+      "$numberLong": "59968"
+    },
+    "FQTY_2": {
+      "$numberLong": "3748"
+    },
+    "LONP": {
+      "$numberLong": "3748"
+    },
+    "DWPT": {
+      "$numberLong": "3748"
+    },
+    "ALTR": {
+      "$numberLong": "14992"
+    },
+    "EGT_3": {
+      "$numberLong": "14992"
+    },
+    "PLA_4": {
+      "$numberLong": "14992"
+    },
+    "PS": {
+      "$numberLong": "7496"
+    },
+    "TAS": {
+      "$numberLong": "14992"
+    },
+    "BPGR_1": {
+      "$numberLong": "3748"
+    },
+    "EGT_1": {
+      "$numberLong": "14992"
+    },
+    "PTCH": {
+      "$numberLong": "29984"
+    },
+    "SPL_2": {
+      "$numberLong": "3748"
+    },
+    "VIB_4": {
+      "$numberLong": "14992"
+    },
+    "CCPF": {
+      "$numberLong": "7496"
+    },
+    "RALT": {
+      "$numberLong": "29984"
+    },
+    "FQTY_3": {
+      "$numberLong": "3748"
+    },
+    "FF_2": {
+      "$numberLong": "14992"
+    },
+    "FLAP": {
+      "$numberLong": "3748"
+    },
+    "N1_3": {
+      "$numberLong": "14992"
+    },
+    "N1_4": {
+      "$numberLong": "14992"
+    },
+    "N2_4": {
+      "$numberLong": "14992"
+    },
+    "CWPC": {
+      "$numberLong": "7496"
+    },
+    "N1_1": {
+      "$numberLong": "14992"
+    },
+    "PLA_1": {
+      "$numberLong": "14992"
+    },
+    "ELEV_2": {
+      "$numberLong": "3748"
+    },
+    "BPGR_2": {
+      "$numberLong": "3748"
+    },
+    "N2_1": {
+      "$numberLong": "14992"
+    },
+    "OIT_1": {
+      "$numberLong": "3748"
+    },
+    "SPL_1": {
+      "$numberLong": "3748"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5614d20af548ede5293"
+  },
+  "startTime": {
+    "$date": "2001-01-13T09:31:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T10:46:03.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "AOAC": {
+      "$numberLong": "18016"
+    },
+    "DA": {
+      "$numberLong": "18016"
+    },
+    "LONG": {
+      "$numberLong": "18016"
+    },
+    "RUDP": {
+      "$numberLong": "9008"
+    },
+    "CCPC": {
+      "$numberLong": "9008"
+    },
+    "OIT_3": {
+      "$numberLong": "4504"
+    },
+    "SAT": {
+      "$numberLong": "4504"
+    },
+    "N2_3": {
+      "$numberLong": "18016"
+    },
+    "BAL1": {
+      "$numberLong": "18016"
+    },
+    "BAL2": {
+      "$numberLong": "18016"
+    },
+    "EGT_4": {
+      "$numberLong": "18016"
+    },
+    "VRTG": {
+      "$numberLong": "36032"
+    },
+    "FQTY_2": {
+      "$numberLong": "4504"
+    },
+    "BLAC": {
+      "$numberLong": "72064"
+    },
+    "LONP": {
+      "$numberLong": "4504"
+    },
+    "CAS": {
+      "$numberLong": "18016"
+    },
+    "CTAC": {
+      "$numberLong": "72064"
+    },
+    "RUDD": {
+      "$numberLong": "9008"
+    },
+    "ELEV_1": {
+      "$numberLong": "4504"
+    },
+    "FF_3": {
+      "$numberLong": "18016"
+    },
+    "OIP_3": {
+      "$numberLong": "4504"
+    },
+    "PSA": {
+      "$numberLong": "9008"
+    },
+    "FQTY_4": {
+      "$numberLong": "4504"
+    },
+    "PT": {
+      "$numberLong": "9008"
+    },
+    "BPGR_1": {
+      "$numberLong": "4504"
+    },
+    "LATG": {
+      "$numberLong": "18016"
+    },
+    "LOC": {
+      "$numberLong": "4504"
+    },
+    "BPYR_2": {
+      "$numberLong": "4504"
+    },
+    "MACH": {
+      "$numberLong": "18016"
+    },
+    "FLAP": {
+      "$numberLong": "4504"
+    },
+    "FF_2": {
+      "$numberLong": "18016"
+    },
+    "N2_4": {
+      "$numberLong": "18016"
+    },
+    "ABRK": {
+      "$numberLong": "4504"
+    },
+    "FQTY_3": {
+      "$numberLong": "4504"
+    },
+    "CWPC": {
+      "$numberLong": "9008"
+    },
+    "VIB_3": {
+      "$numberLong": "18016"
+    },
+    "PLA_1": {
+      "$numberLong": "18016"
+    },
+    "N2_1": {
+      "$numberLong": "18016"
+    },
+    "ELEV_2": {
+      "$numberLong": "4504"
+    },
+    "N1_1": {
+      "$numberLong": "18016"
+    },
+    "N1_3": {
+      "$numberLong": "18016"
+    },
+    "BPGR_2": {
+      "$numberLong": "4504"
+    },
+    "N1_4": {
+      "$numberLong": "18016"
+    },
+    "OIT_1": {
+      "$numberLong": "4504"
+    },
+    "SPL_1": {
+      "$numberLong": "4504"
+    },
+    "TRKM": {
+      "$numberLong": "18016"
+    },
+    "VIB_1": {
+      "$numberLong": "18016"
+    },
+    "VIB_2": {
+      "$numberLong": "18016"
+    },
+    "EGT_1": {
+      "$numberLong": "18016"
+    },
+    "AIL_1": {
+      "$numberLong": "4504"
+    },
+    "ALTR": {
+      "$numberLong": "18016"
+    },
+    "PLA_4": {
+      "$numberLong": "18016"
+    },
+    "EGT_3": {
+      "$numberLong": "18016"
+    },
+    "PS": {
+      "$numberLong": "9008"
+    },
+    "PTCH": {
+      "$numberLong": "36032"
+    },
+    "SPL_2": {
+      "$numberLong": "4504"
+    },
+    "TAS": {
+      "$numberLong": "18016"
+    },
+    "DWPT": {
+      "$numberLong": "4504"
+    },
+    "CCPF": {
+      "$numberLong": "9008"
+    },
+    "RALT": {
+      "$numberLong": "36032"
+    },
+    "VIB_4": {
+      "$numberLong": "18016"
+    },
+    "TH": {
+      "$numberLong": "18016"
+    },
+    "WD": {
+      "$numberLong": "18016"
+    },
+    "PLA_2": {
+      "$numberLong": "18016"
+    },
+    "TAT": {
+      "$numberLong": "4504"
+    },
+    "EGT_2": {
+      "$numberLong": "18016"
+    },
+    "N1T": {
+      "$numberLong": "18016"
+    },
+    "N1_2": {
+      "$numberLong": "18016"
+    },
+    "OIP_4": {
+      "$numberLong": "4504"
+    },
+    "FF_4": {
+      "$numberLong": "18016"
+    },
+    "AOA2": {
+      "$numberLong": "18016"
+    },
+    "FPAC": {
+      "$numberLong": "72064"
+    },
+    "CWPF": {
+      "$numberLong": "9008"
+    },
+    "OIT_4": {
+      "$numberLong": "4504"
+    },
+    "OIT_2": {
+      "$numberLong": "4504"
+    },
+    "N2_2": {
+      "$numberLong": "18016"
+    },
+    "WS": {
+      "$numberLong": "18016"
+    },
+    "AIL_2": {
+      "$numberLong": "4504"
+    },
+    "PTRM": {
+      "$numberLong": "4504"
+    },
+    "IVV": {
+      "$numberLong": "72064"
+    },
+    "N1C": {
+      "$numberLong": "18016"
+    },
+    "GLS": {
+      "$numberLong": "4504"
+    },
+    "OIP_1": {
+      "$numberLong": "4504"
+    },
+    "ALT": {
+      "$numberLong": "18016"
+    },
+    "FF_1": {
+      "$numberLong": "18016"
+    },
+    "MH": {
+      "$numberLong": "18016"
+    },
+    "PI": {
+      "$numberLong": "9008"
+    },
+    "PLA_3": {
+      "$numberLong": "18016"
+    },
+    "AOA1": {
+      "$numberLong": "18016"
+    },
+    "TRK": {
+      "$numberLong": "18016"
+    },
+    "AOAI": {
+      "$numberLong": "18016"
+    },
+    "BPYR_1": {
+      "$numberLong": "4504"
+    },
+    "FQTY_1": {
+      "$numberLong": "4504"
+    },
+    "GS": {
+      "$numberLong": "18016"
+    },
+    "OIP_2": {
+      "$numberLong": "4504"
+    },
+    "ROLL": {
+      "$numberLong": "36032"
+    },
+    "LATP": {
+      "$numberLong": "4504"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5964d20af548ede6eff"
+  },
+  "startTime": {
+    "$date": "2001-01-13T11:42:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T12:40:47.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "BAL2": {
+      "$numberLong": "14112"
+    },
+    "BPYR_1": {
+      "$numberLong": "3528"
+    },
+    "OIP_2": {
+      "$numberLong": "3528"
+    },
+    "LONG": {
+      "$numberLong": "14112"
+    },
+    "MH": {
+      "$numberLong": "14112"
+    },
+    "CCPC": {
+      "$numberLong": "7056"
+    },
+    "OIT_3": {
+      "$numberLong": "3528"
+    },
+    "RUDP": {
+      "$numberLong": "7056"
+    },
+    "SAT": {
+      "$numberLong": "3528"
+    },
+    "BAL1": {
+      "$numberLong": "14112"
+    },
+    "BLAC": {
+      "$numberLong": "56448"
+    },
+    "BPGR_1": {
+      "$numberLong": "3528"
+    },
+    "FQTY_2": {
+      "$numberLong": "3528"
+    },
+    "EGT_4": {
+      "$numberLong": "14112"
+    },
+    "LONP": {
+      "$numberLong": "3528"
+    },
+    "N2_3": {
+      "$numberLong": "14112"
+    },
+    "TRK": {
+      "$numberLong": "14112"
+    },
+    "VRTG": {
+      "$numberLong": "28224"
+    },
+    "ELEV_1": {
+      "$numberLong": "3528"
+    },
+    "OIP_3": {
+      "$numberLong": "3528"
+    },
+    "FF_3": {
+      "$numberLong": "14112"
+    },
+    "RUDD": {
+      "$numberLong": "7056"
+    },
+    "FQTY_4": {
+      "$numberLong": "3528"
+    },
+    "CAS": {
+      "$numberLong": "14112"
+    },
+    "BPYR_2": {
+      "$numberLong": "3528"
+    },
+    "LATG": {
+      "$numberLong": "14112"
+    },
+    "CTAC": {
+      "$numberLong": "56448"
+    },
+    "LOC": {
+      "$numberLong": "3528"
+    },
+    "MACH": {
+      "$numberLong": "14112"
+    },
+    "PT": {
+      "$numberLong": "7056"
+    },
+    "PSA": {
+      "$numberLong": "7056"
+    },
+    "PLA_1": {
+      "$numberLong": "14112"
+    },
+    "VIB_3": {
+      "$numberLong": "14112"
+    },
+    "ABRK": {
+      "$numberLong": "3528"
+    },
+    "FQTY_3": {
+      "$numberLong": "3528"
+    },
+    "CWPC": {
+      "$numberLong": "7056"
+    },
+    "FF_2": {
+      "$numberLong": "14112"
+    },
+    "N2_4": {
+      "$numberLong": "14112"
+    },
+    "FLAP": {
+      "$numberLong": "3528"
+    },
+    "OIT_1": {
+      "$numberLong": "3528"
+    },
+    "N1_1": {
+      "$numberLong": "14112"
+    },
+    "N1_3": {
+      "$numberLong": "14112"
+    },
+    "N1_4": {
+      "$numberLong": "14112"
+    },
+    "ELEV_2": {
+      "$numberLong": "3528"
+    },
+    "N2_1": {
+      "$numberLong": "14112"
+    },
+    "EGT_3": {
+      "$numberLong": "14112"
+    },
+    "PLA_4": {
+      "$numberLong": "14112"
+    },
+    "AIL_1": {
+      "$numberLong": "3528"
+    },
+    "PS": {
+      "$numberLong": "7056"
+    },
+    "DWPT": {
+      "$numberLong": "3528"
+    },
+    "ALTR": {
+      "$numberLong": "14112"
+    },
+    "SPL_1": {
+      "$numberLong": "3528"
+    },
+    "TRKM": {
+      "$numberLong": "14112"
+    },
+    "VIB_1": {
+      "$numberLong": "14112"
+    },
+    "VIB_2": {
+      "$numberLong": "14112"
+    },
+    "CCPF": {
+      "$numberLong": "7056"
+    },
+    "RALT": {
+      "$numberLong": "28224"
+    },
+    "BPGR_2": {
+      "$numberLong": "3528"
+    },
+    "TAS": {
+      "$numberLong": "14112"
+    },
+    "PTCH": {
+      "$numberLong": "28224"
+    },
+    "SPL_2": {
+      "$numberLong": "3528"
+    },
+    "VIB_4": {
+      "$numberLong": "14112"
+    },
+    "WD": {
+      "$numberLong": "14112"
+    },
+    "EGT_1": {
+      "$numberLong": "14112"
+    },
+    "TAT": {
+      "$numberLong": "3528"
+    },
+    "PLA_2": {
+      "$numberLong": "14112"
+    },
+    "N1T": {
+      "$numberLong": "14112"
+    },
+    "EGT_2": {
+      "$numberLong": "14112"
+    },
+    "N1_2": {
+      "$numberLong": "14112"
+    },
+    "OIP_4": {
+      "$numberLong": "3528"
+    },
+    "TH": {
+      "$numberLong": "14112"
+    },
+    "AOA2": {
+      "$numberLong": "14112"
+    },
+    "CWPF": {
+      "$numberLong": "7056"
+    },
+    "FF_4": {
+      "$numberLong": "14112"
+    },
+    "FPAC": {
+      "$numberLong": "56448"
+    },
+    "OIT_2": {
+      "$numberLong": "3528"
+    },
+    "OIT_4": {
+      "$numberLong": "3528"
+    },
+    "N1C": {
+      "$numberLong": "14112"
+    },
+    "AIL_2": {
+      "$numberLong": "3528"
+    },
+    "PTRM": {
+      "$numberLong": "3528"
+    },
+    "N2_2": {
+      "$numberLong": "14112"
+    },
+    "AOAI": {
+      "$numberLong": "14112"
+    },
+    "WS": {
+      "$numberLong": "14112"
+    },
+    "IVV": {
+      "$numberLong": "56448"
+    },
+    "OIP_1": {
+      "$numberLong": "3528"
+    },
+    "GLS": {
+      "$numberLong": "3528"
+    },
+    "PLA_3": {
+      "$numberLong": "14112"
+    },
+    "LATP": {
+      "$numberLong": "3528"
+    },
+    "AOA1": {
+      "$numberLong": "14112"
+    },
+    "ALT": {
+      "$numberLong": "14112"
+    },
+    "FF_1": {
+      "$numberLong": "14112"
+    },
+    "FQTY_1": {
+      "$numberLong": "3528"
+    },
+    "PI": {
+      "$numberLong": "7056"
+    },
+    "GS": {
+      "$numberLong": "14112"
+    },
+    "ROLL": {
+      "$numberLong": "28224"
+    },
+    "DA": {
+      "$numberLong": "14112"
+    },
+    "AOAC": {
+      "$numberLong": "14112"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5bd4d20af548ede85bc"
+  },
+  "startTime": {
+    "$date": "2001-01-13T13:57:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T15:00:47.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "N2_1": {
+      "$numberLong": "15312"
+    },
+    "SPL_1": {
+      "$numberLong": "3828"
+    },
+    "AIL_1": {
+      "$numberLong": "3828"
+    },
+    "CWPF": {
+      "$numberLong": "7656"
+    },
+    "TRKM": {
+      "$numberLong": "15312"
+    },
+    "FF_4": {
+      "$numberLong": "15312"
+    },
+    "VIB_1": {
+      "$numberLong": "15312"
+    },
+    "FPAC": {
+      "$numberLong": "61248"
+    },
+    "OIT_2": {
+      "$numberLong": "3828"
+    },
+    "BPGR_2": {
+      "$numberLong": "3828"
+    },
+    "OIT_4": {
+      "$numberLong": "3828"
+    },
+    "N1C": {
+      "$numberLong": "15312"
+    },
+    "TAT": {
+      "$numberLong": "3828"
+    },
+    "AIL_2": {
+      "$numberLong": "3828"
+    },
+    "PLA_2": {
+      "$numberLong": "15312"
+    },
+    "N1T": {
+      "$numberLong": "15312"
+    },
+    "EGT_2": {
+      "$numberLong": "15312"
+    },
+    "N1_2": {
+      "$numberLong": "15312"
+    },
+    "OIP_4": {
+      "$numberLong": "3828"
+    },
+    "TH": {
+      "$numberLong": "15312"
+    },
+    "AOA2": {
+      "$numberLong": "15312"
+    },
+    "LATP": {
+      "$numberLong": "3828"
+    },
+    "PLA_3": {
+      "$numberLong": "15312"
+    },
+    "FF_1": {
+      "$numberLong": "15312"
+    },
+    "FQTY_1": {
+      "$numberLong": "3828"
+    },
+    "GS": {
+      "$numberLong": "15312"
+    },
+    "LONG": {
+      "$numberLong": "15312"
+    },
+    "PI": {
+      "$numberLong": "7656"
+    },
+    "MH": {
+      "$numberLong": "15312"
+    },
+    "ROLL": {
+      "$numberLong": "30624"
+    },
+    "DA": {
+      "$numberLong": "15312"
+    },
+    "AOAC": {
+      "$numberLong": "15312"
+    },
+    "BPYR_1": {
+      "$numberLong": "3828"
+    },
+    "OIP_2": {
+      "$numberLong": "3828"
+    },
+    "RUDP": {
+      "$numberLong": "7656"
+    },
+    "TRK": {
+      "$numberLong": "15312"
+    },
+    "IVV": {
+      "$numberLong": "61248"
+    },
+    "PTRM": {
+      "$numberLong": "3828"
+    },
+    "N2_2": {
+      "$numberLong": "15312"
+    },
+    "AOAI": {
+      "$numberLong": "15312"
+    },
+    "WS": {
+      "$numberLong": "15312"
+    },
+    "OIP_1": {
+      "$numberLong": "3828"
+    },
+    "GLS": {
+      "$numberLong": "3828"
+    },
+    "FF_3": {
+      "$numberLong": "15312"
+    },
+    "MACH": {
+      "$numberLong": "15312"
+    },
+    "OIP_3": {
+      "$numberLong": "3828"
+    },
+    "ELEV_1": {
+      "$numberLong": "3828"
+    },
+    "RUDD": {
+      "$numberLong": "7656"
+    },
+    "AOA1": {
+      "$numberLong": "15312"
+    },
+    "ALT": {
+      "$numberLong": "15312"
+    },
+    "CAS": {
+      "$numberLong": "15312"
+    },
+    "BPYR_2": {
+      "$numberLong": "3828"
+    },
+    "CTAC": {
+      "$numberLong": "61248"
+    },
+    "FQTY_4": {
+      "$numberLong": "3828"
+    },
+    "LATG": {
+      "$numberLong": "15312"
+    },
+    "LOC": {
+      "$numberLong": "3828"
+    },
+    "BAL2": {
+      "$numberLong": "15312"
+    },
+    "PSA": {
+      "$numberLong": "7656"
+    },
+    "PT": {
+      "$numberLong": "7656"
+    },
+    "ABRK": {
+      "$numberLong": "3828"
+    },
+    "OIT_3": {
+      "$numberLong": "3828"
+    },
+    "CCPC": {
+      "$numberLong": "7656"
+    },
+    "SAT": {
+      "$numberLong": "3828"
+    },
+    "VIB_3": {
+      "$numberLong": "15312"
+    },
+    "BAL1": {
+      "$numberLong": "15312"
+    },
+    "BLAC": {
+      "$numberLong": "61248"
+    },
+    "BPGR_1": {
+      "$numberLong": "3828"
+    },
+    "FQTY_2": {
+      "$numberLong": "3828"
+    },
+    "EGT_4": {
+      "$numberLong": "15312"
+    },
+    "LONP": {
+      "$numberLong": "3828"
+    },
+    "N2_3": {
+      "$numberLong": "15312"
+    },
+    "EGT_3": {
+      "$numberLong": "15312"
+    },
+    "PLA_4": {
+      "$numberLong": "15312"
+    },
+    "PS": {
+      "$numberLong": "7656"
+    },
+    "VRTG": {
+      "$numberLong": "30624"
+    },
+    "DWPT": {
+      "$numberLong": "3828"
+    },
+    "ALTR": {
+      "$numberLong": "15312"
+    },
+    "VIB_4": {
+      "$numberLong": "15312"
+    },
+    "CCPF": {
+      "$numberLong": "7656"
+    },
+    "RALT": {
+      "$numberLong": "30624"
+    },
+    "TAS": {
+      "$numberLong": "15312"
+    },
+    "WD": {
+      "$numberLong": "15312"
+    },
+    "PTCH": {
+      "$numberLong": "30624"
+    },
+    "SPL_2": {
+      "$numberLong": "3828"
+    },
+    "PLA_1": {
+      "$numberLong": "15312"
+    },
+    "EGT_1": {
+      "$numberLong": "15312"
+    },
+    "N1_1": {
+      "$numberLong": "15312"
+    },
+    "FQTY_3": {
+      "$numberLong": "3828"
+    },
+    "CWPC": {
+      "$numberLong": "7656"
+    },
+    "FF_2": {
+      "$numberLong": "15312"
+    },
+    "N2_4": {
+      "$numberLong": "15312"
+    },
+    "FLAP": {
+      "$numberLong": "3828"
+    },
+    "N1_3": {
+      "$numberLong": "15312"
+    },
+    "N1_4": {
+      "$numberLong": "15312"
+    },
+    "OIT_1": {
+      "$numberLong": "3828"
+    },
+    "VIB_2": {
+      "$numberLong": "15312"
+    },
+    "ELEV_2": {
+      "$numberLong": "3828"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af4e5e74d20af548ede9dfd"
+  },
+  "startTime": {
+    "$date": "2001-01-13T16:05:00.000Z"
+  },
+  "endTime": {
+    "$date": "2001-01-13T17:09:59.937Z"
+  },
+  "status": "closed",
+  "sampleCounts": {
+    "PT": {
+      "$numberLong": "7800"
+    },
+    "ALT": {
+      "$numberLong": "15600"
+    },
+    "PSA": {
+      "$numberLong": "7800"
+    },
+    "VIB_3": {
+      "$numberLong": "15600"
+    },
+    "BPYR_2": {
+      "$numberLong": "3900"
+    },
+    "CAS": {
+      "$numberLong": "15600"
+    },
+    "RUDD": {
+      "$numberLong": "7800"
+    },
+    "CTAC": {
+      "$numberLong": "62400"
+    },
+    "FF_3": {
+      "$numberLong": "15600"
+    },
+    "LOC": {
+      "$numberLong": "3900"
+    },
+    "ELEV_1": {
+      "$numberLong": "3900"
+    },
+    "FQTY_4": {
+      "$numberLong": "3900"
+    },
+    "EGT_4": {
+      "$numberLong": "15600"
+    },
+    "LATG": {
+      "$numberLong": "15600"
+    },
+    "ABRK": {
+      "$numberLong": "3900"
+    },
+    "N2_3": {
+      "$numberLong": "15600"
+    },
+    "LONP": {
+      "$numberLong": "3900"
+    },
+    "MACH": {
+      "$numberLong": "15600"
+    },
+    "OIP_3": {
+      "$numberLong": "3900"
+    },
+    "FQTY_2": {
+      "$numberLong": "3900"
+    },
+    "BAL1": {
+      "$numberLong": "15600"
+    },
+    "BLAC": {
+      "$numberLong": "62400"
+    },
+    "BPGR_1": {
+      "$numberLong": "3900"
+    },
+    "VRTG": {
+      "$numberLong": "31200"
+    },
+    "BAL2": {
+      "$numberLong": "15600"
+    },
+    "CCPC": {
+      "$numberLong": "7800"
+    },
+    "OIT_3": {
+      "$numberLong": "3900"
+    },
+    "SAT": {
+      "$numberLong": "3900"
+    },
+    "TAS": {
+      "$numberLong": "15600"
+    },
+    "SPL_2": {
+      "$numberLong": "3900"
+    },
+    "PTCH": {
+      "$numberLong": "31200"
+    },
+    "VIB_4": {
+      "$numberLong": "15600"
+    },
+    "RALT": {
+      "$numberLong": "31200"
+    },
+    "CCPF": {
+      "$numberLong": "7800"
+    },
+    "WD": {
+      "$numberLong": "15600"
+    },
+    "DWPT": {
+      "$numberLong": "3900"
+    },
+    "EGT_1": {
+      "$numberLong": "15600"
+    },
+    "PLA_4": {
+      "$numberLong": "15600"
+    },
+    "EGT_3": {
+      "$numberLong": "15600"
+    },
+    "PS": {
+      "$numberLong": "7800"
+    },
+    "VIB_2": {
+      "$numberLong": "15600"
+    },
+    "AIL_1": {
+      "$numberLong": "3900"
+    },
+    "ELEV_2": {
+      "$numberLong": "3900"
+    },
+    "N2_1": {
+      "$numberLong": "15600"
+    },
+    "ALTR": {
+      "$numberLong": "15600"
+    },
+    "OIT_1": {
+      "$numberLong": "3900"
+    },
+    "SPL_1": {
+      "$numberLong": "3900"
+    },
+    "TRKM": {
+      "$numberLong": "15600"
+    },
+    "FQTY_3": {
+      "$numberLong": "3900"
+    },
+    "FLAP": {
+      "$numberLong": "3900"
+    },
+    "FF_2": {
+      "$numberLong": "15600"
+    },
+    "BPGR_2": {
+      "$numberLong": "3900"
+    },
+    "N2_4": {
+      "$numberLong": "15600"
+    },
+    "N1_1": {
+      "$numberLong": "15600"
+    },
+    "PLA_1": {
+      "$numberLong": "15600"
+    },
+    "CWPC": {
+      "$numberLong": "7800"
+    },
+    "OIT_4": {
+      "$numberLong": "3900"
+    },
+    "N1_3": {
+      "$numberLong": "15600"
+    },
+    "N1_4": {
+      "$numberLong": "15600"
+    },
+    "VIB_1": {
+      "$numberLong": "15600"
+    },
+    "N1C": {
+      "$numberLong": "15600"
+    },
+    "OIT_2": {
+      "$numberLong": "3900"
+    },
+    "FF_4": {
+      "$numberLong": "15600"
+    },
+    "FPAC": {
+      "$numberLong": "62400"
+    },
+    "CWPF": {
+      "$numberLong": "7800"
+    },
+    "AIL_2": {
+      "$numberLong": "3900"
+    },
+    "OIP_4": {
+      "$numberLong": "3900"
+    },
+    "AOA2": {
+      "$numberLong": "15600"
+    },
+    "PLA_2": {
+      "$numberLong": "15600"
+    },
+    "TH": {
+      "$numberLong": "15600"
+    },
+    "TAT": {
+      "$numberLong": "3900"
+    },
+    "N1T": {
+      "$numberLong": "15600"
+    },
+    "N1_2": {
+      "$numberLong": "15600"
+    },
+    "BPYR_1": {
+      "$numberLong": "3900"
+    },
+    "EGT_2": {
+      "$numberLong": "15600"
+    },
+    "LONG": {
+      "$numberLong": "15600"
+    },
+    "DA": {
+      "$numberLong": "15600"
+    },
+    "OIP_2": {
+      "$numberLong": "3900"
+    },
+    "ROLL": {
+      "$numberLong": "31200"
+    },
+    "RUDP": {
+      "$numberLong": "7800"
+    },
+    "FF_1": {
+      "$numberLong": "15600"
+    },
+    "FQTY_1": {
+      "$numberLong": "3900"
+    },
+    "PI": {
+      "$numberLong": "7800"
+    },
+    "GS": {
+      "$numberLong": "15600"
+    },
+    "LATP": {
+      "$numberLong": "3900"
+    },
+    "AOAC": {
+      "$numberLong": "15600"
+    },
+    "MH": {
+      "$numberLong": "15600"
+    },
+    "PLA_3": {
+      "$numberLong": "15600"
+    },
+    "OIP_1": {
+      "$numberLong": "3900"
+    },
+    "GLS": {
+      "$numberLong": "3900"
+    },
+    "TRK": {
+      "$numberLong": "15600"
+    },
+    "AOA1": {
+      "$numberLong": "15600"
+    },
+    "AOAI": {
+      "$numberLong": "15600"
+    },
+    "PTRM": {
+      "$numberLong": "3900"
+    },
+    "N2_2": {
+      "$numberLong": "15600"
+    },
+    "WS": {
+      "$numberLong": "15600"
+    },
+    "IVV": {
+      "$numberLong": "62400"
+    }
+  }
+}]
